@@ -8,7 +8,7 @@
 
 typedef struct		print_list
 {
-	long int        wight;
+	long int        width;
 	long int        pon;
 	long int        len;
 	int             poz;
@@ -18,8 +18,10 @@ typedef struct		print_list
 }					p_list;
 
 
-long int    ft_printf(char *str, ...);
-
+long int			ft_printf(char *str, ...);
+int 				ft_checkznak(char ch, p_list *list);
+int 				ft_checkwidth(va_list *arg, char *str, p_list *list);
+long int			ft_checkpon(va_list *arg, char *str, p_list *list, char *head);
 
 
 #endif

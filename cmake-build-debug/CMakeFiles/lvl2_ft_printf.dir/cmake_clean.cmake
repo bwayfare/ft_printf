@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lvl2_ft_printf.dir/ft_check.c.o"
   "CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o"
   "CMakeFiles/lvl2_ft_printf.dir/libft/ft_atoi.c.o"
   "CMakeFiles/lvl2_ft_printf.dir/libft/ft_bzero.c.o"
