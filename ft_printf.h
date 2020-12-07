@@ -13,14 +13,15 @@ typedef struct		print_list
 	long int        len;
 	int             poz;
 	int             def;
+	int 			sharp;
 	char            zap;
 	int             flag;
 }					p_list;
 
 
 long int			ft_printf(char *str, ...);
-int 				ft_checkznak(char ch, p_list *list);
-int 				ft_checkwidth(va_list *arg, char *str, p_list *list);
+int 				ft_checkflag(char ch, p_list *list);
+long int			ft_checkwidth(va_list *arg, char *str, p_list *list);
 long int			ft_checkpon(va_list *arg, char *str, p_list *list, char *head);
 
 

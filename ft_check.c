@@ -23,28 +23,41 @@ int        ft_goch(char *str, char *ch)
 	return (j);
 }
 
-int 		ft_checkznak(char ch, p_list *list)
+int 		ft_checkflag(char ch, p_list *list)
 {
-	if (ch == '-' && list->flag == 0)
+	if ((ch == ' ' || ch == '0') && list->flag == 0)
+	{
+		list->zap = ch;
+		return (1);
+	}
+	else if (ch == '-' && list->flag == 0)
 	{
 		list->def = 1;
 		return (1);
 	}
 	else if (ch == '+' && list->flag == 0)
 	{
-		list->poz = '1';
+		list->poz = 1;
+		return (1);
+	}
+	else if (ch == '#' && list->flag == 0)
+	{
+		list->sharp = 1;
 		return (1);
 	}
 	return (0);
 }
 
-int 		ft_checkwidth(va_list *arg, char *str, p_list *list)
+long int	 ft_checkwidth(va_list *arg, char *str, p_list *list)
 {
+	char	*head;
+
+	head = str;
 	if (*str >= '0' && *str <= '9' && list->flag == 0)
 	{
 		list->width = ft_atoi(str);
 		str += ft_goch(str, ".\0");
-		return (1);
+		return (str - head);
 	}
 	else if (*str == '*' && list->flag == 0)
 	{
@@ -52,7 +65,7 @@ int 		ft_checkwidth(va_list *arg, char *str, p_list *list)
 		str = str + ft_goch(str, ".\0");
 		return (1);
 	}
-	return (0);
+	return (1);
 }
 
 long int	ft_checkpon(va_list *arg, char *str, p_list *list, char *head)

@@ -5,16 +5,23 @@ long int    ft_proc(va_list *arg, char *str, p_list *list)
 	char *head = str;
 	while (*str)
 	{
-		if ((*str == ' ' || *str == '0') && list->flag == 0)
-			list->zap = *str;
-		else if (ft_checkznak(*str, list))
-			;
-		else if (ft_checkwidth(arg, str, list))
-			;
+		if (*str == '.')
+		{
+			list->flag = 1;
+			str++;
+			continue;
+		}
+		if (ft_checkflag(*str, list))
+		{
+			str++;
+			continue;
+		}
+		else if (list->flag == 0 && (str += ft_checkwidth(arg, str, list)))
+		{
+			continue;
+		}
 		else if ((*str >= '0' && *str <= '9') || *str == '*')
 			return (ft_checkpon(arg, str, list, head));
-		if (*str == '.')
-			list->flag = 1;
 		str++;
 	}
 	return (str - head);
