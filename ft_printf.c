@@ -40,14 +40,23 @@ void        ft_prin(va_list *arg, char *str, p_list *list)
 	}
 }
 
+void 		ft_initlist(p_list *list)
+{
+	list->def = 0;
+	list->zap = 0;
+	list->poz = 0;
+	list->width = 0;
+	list->pon = 0;
+	list->sharp = 0;
+	list->flag = 0;
+}
+
 long int    ft_printf(char *str, ...)
 {
 	p_list 		list;
-	long int 	len;
+	long int 	step;
 
-	len = 0;
-	list.len = 0;
-	list.flag = 0;
+	step = 0;
 	if (!str)
 		return (0);
 	va_list arg;
@@ -56,8 +65,9 @@ long int    ft_printf(char *str, ...)
 	{
 		if (*str == '%')
 		{
-			len = ft_proc(&arg, ++str, &list);
-			str += len;
+			ft_initlist(&list);
+			step = ft_proc(&arg, ++str, &list);
+			str += step;
 			ft_prin(&arg, str++, &list);
 		}
 		ft_putchar_fd(*str, 1);
