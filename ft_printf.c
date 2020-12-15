@@ -9,7 +9,10 @@ long int    ft_proc(va_list *arg, char *str, p_list *list)
 		{
 			list->flag = 1;
 			str++;
-			continue;
+			if ((*str >= '0' && *str <= '9') || *str == '*')
+				return (ft_checkpon(arg, str, list, head));
+			else
+				return (-1);
 		}
 		if (ft_checkflag(*str, list))
 		{
@@ -20,8 +23,8 @@ long int    ft_proc(va_list *arg, char *str, p_list *list)
 		{
 			continue;
 		}
-		else if ((*str >= '0' && *str <= '9') || *str == '*')
-			return (ft_checkpon(arg, str, list, head));
+		else
+			return (-1);
 		str++;
 	}
 	return (str - head);
@@ -67,6 +70,8 @@ long int    ft_printf(char *str, ...)
 		{
 			ft_initlist(&list);
 			step = ft_proc(&arg, ++str, &list);
+			if (step == -1)
+				return (-1);
 			str += step;
 			ft_prin(&arg, str++, &list);
 		}
