@@ -1,6 +1,6 @@
 #include "ft_printf.h"
 
-int        ft_goch(char *str, char *ch)
+int			ft_goch(char *str, char *ch)
 {
 	int i;
 	int flag;
@@ -23,7 +23,15 @@ int        ft_goch(char *str, char *ch)
 	return (j);
 }
 
-int 		ft_checkflag(char ch, p_list *list)
+int 		ft_singltype(char ch, char *set)
+{
+	while(*set++ != '\0')
+		if (ch == *set)
+			return (1);
+	return (0);
+}
+
+int			ft_checkflag(char ch, p_list *list)
 {
 	if ((ch == ' ' || ch == '0') && list->flag == 0)
 	{
@@ -66,7 +74,11 @@ long int	ft_checkpon(va_list *arg, char *str, p_list *list, char *head)
 	if (*str >= '0' && *str <= '9')
 		list->pon = ft_atoi(str);
 	else if (*str == '*')
+	{
 		list->pon = va_arg(*arg, int);
+		if (list->pon < 0)
+			list->pon = -1;
+	}
 	str += ft_goch(str, "ducsxX\0");
 	return (str - head);
 }

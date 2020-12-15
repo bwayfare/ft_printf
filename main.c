@@ -3,9 +3,33 @@
 
 int main()
 {
-	printf("\n\n%ld\n\n",
-		ft_printf("%760.+0153dHello, %-+015.16dWorld!\n", -720, 15));
+	/*printf("\n\n%ld\n\n",
+		ft_printf("%-60.3s %5.*s Hello, %-+015.16dWorld!\n", "aaaa\0",-16, "bbbb\0", 15));
 	printf("%d%d\n\n", 1, 2);
-	printf("%-13.02s", "Hello");
+	printf("%-13.20s", "Hello\n\n\n");*/
+	char  *u = "huyata";
+//  int j = -1;
+//    printf("\n%d %d\n", i, j);
+	char  *i = "12345huliya";
+	ft_printf("!01__%15.40s___!\n\n", i);
+	printf("!02__%15.40s___!\n\n", i);
+	ft_printf("!03__%-20.15s___!\n\n", i);
+	printf("!04__%-20.15s___!\n\n", i);
+	ft_printf("!05__%s___!\n\n", u);
+	printf("!06__%s___!\n\n", u);
+	ft_printf("!07__%10.2s___!\n\n", u);
+	printf("!08__%10.2s___!\n\n", u);
+	ft_printf("!09__%.s___!\n\n", u);
+	printf("!10__%.s___!\n\n", u);
+	ft_printf("!11__%-6.*s___!\n\n", -16, u);
+	printf("!12__%-6.*s___!\n\n", -16, u);
+	ft_printf("!13__%30.s___!\n\n", u);
+	printf("!14__%30.s___!\n\n", u);
+	ft_printf("!15__%-6.*s___!\n\n", -1, u);
+	printf("!16__%-6.*s___!\n\n", -1, u);
+	ft_printf("!17__%.6s___!\n\n", u);
+	printf("!18__%.6s___!\n\n", u);
+	ft_printf("!19__%.*s___!\n\n", -12, u);
+	printf("!20__%.*s___!\n\n", -12, u);
 	return 0;
 }

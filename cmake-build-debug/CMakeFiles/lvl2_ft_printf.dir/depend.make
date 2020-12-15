@@ -9,6 +9,10 @@ CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o: ../ft_printf.c
 CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o: ../ft_printf.h
 CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o: ../libft/libft.h
 
+CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o: ../ft_printf.h
+CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o: ../ft_printstring.c
+CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o: ../libft/libft.h
+
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_atoi.c.o: ../libft/libft.h
 

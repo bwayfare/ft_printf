@@ -9,6 +9,10 @@ CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o
  /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.c
  /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
  /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/libft.h
+CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o
+ /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
+ /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printstring.c
+ /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/libft.h
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_atoi.c.o
  /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_atoi.c
  /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/libft.h

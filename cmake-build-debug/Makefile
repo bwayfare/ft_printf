@@ -197,6 +197,33 @@ ft_printf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.s
 .PHONY : ft_printf.c.s
 
+ft_printstring.o: ft_printstring.c.o
+
+.PHONY : ft_printstring.o
+
+# target to build an object file
+ft_printstring.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o
+.PHONY : ft_printstring.c.o
+
+ft_printstring.i: ft_printstring.c.i
+
+.PHONY : ft_printstring.i
+
+# target to preprocess a source file
+ft_printstring.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.i
+.PHONY : ft_printstring.c.i
+
+ft_printstring.s: ft_printstring.c.s
+
+.PHONY : ft_printstring.s
+
+# target to generate assembly for a file
+ft_printstring.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.s
+.PHONY : ft_printstring.c.s
+
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
 .PHONY : libft/ft_atoi.o
@@ -1400,6 +1427,9 @@ help:
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"
+	@echo "... ft_printstring.o"
+	@echo "... ft_printstring.i"
+	@echo "... ft_printstring.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"
