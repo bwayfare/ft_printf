@@ -40,6 +40,6 @@ long int 	ft_printstring(p_list *list, va_list arg)
 				write(1, " ", 1);
 			write(1, str, len);
 		}
-		return (list->width - 1);
+		return (list->width);
 	}
 }

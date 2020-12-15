@@ -12,7 +12,7 @@ int main()
 //    printf("\n%d %d\n", i, j);
 	char  *i = "12345huliya";
 	printf("Длина строки = %ld", ft_printf("!01__%15.40s___!\n\n", i));
-	printf("!02__%15.40s___!\n\n", i);
+	printf("Длина строки = %d", printf("!02__%15.40s___!\n\n", i));
 	ft_printf("!03__%-20.15s___!\n\n", i);
 	printf("!04__%-20.15s___!\n\n", i);
 	ft_printf("!05__%s___!\n\n", u);
@@ -24,11 +24,11 @@ int main()
 	ft_printf("!11__%-6.*s___!\n\n", -16, u);
 	printf("!12__%-6.*s___!\n\n", -16, u);
 	printf("Длина 13 строки = %ld\n", ft_printf("!13__%30.s___!\n\n", u));
-	printf("!14__%30.s___!\n\n", u);
+	printf("Длина 14 строки = %d\n", printf("!14__%30.s___!\n\n", u));
 	ft_printf("!15__%-6.*s___!\n\n", -1, u);
 	printf("!16__%-6.*s___!\n\n", -1, u);
-	ft_printf("!17__%.6s___!\n\n", u);
-	printf("!18__%.6s___!\n\n", u);
+	printf("Длина 17 строки = %ld\n", ft_printf("!17__%.6s___!\n\n", u));
+	printf("Длина 18 строки = %d\n", printf("!18__%.6s___!\n\n", u));
 	ft_printf("!19__%.*s___!\n\n", -12, u);
 	printf("!20__%.*s___!\n\n", -12, u);
 	return 0;
