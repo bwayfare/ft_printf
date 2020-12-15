@@ -11,7 +11,7 @@ int main()
 //  int j = -1;
 //    printf("\n%d %d\n", i, j);
 	char  *i = "12345huliya";
-	ft_printf("!01__%15.40s___!\n\n", i);
+	printf("Длина строки = %ld", ft_printf("!01__%15.40s___!\n\n", i));
 	printf("!02__%15.40s___!\n\n", i);
 	ft_printf("!03__%-20.15s___!\n\n", i);
 	printf("!04__%-20.15s___!\n\n", i);
@@ -23,7 +23,7 @@ int main()
 	printf("!10__%.s___!\n\n", u);
 	ft_printf("!11__%-6.*s___!\n\n", -16, u);
 	printf("!12__%-6.*s___!\n\n", -16, u);
-	ft_printf("!13__%30.s___!\n\n", u);
+	printf("Длина 13 строки = %ld\n", ft_printf("!13__%30.s___!\n\n", u));
 	printf("!14__%30.s___!\n\n", u);
 	ft_printf("!15__%-6.*s___!\n\n", -1, u);
 	printf("!16__%-6.*s___!\n\n", -1, u);
