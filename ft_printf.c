@@ -33,7 +33,7 @@ long int        ft_prin(va_list *arg, char *str, p_list *list)
 	if (*str == 's')
 	{
 		str++;
-		return (ft_printstring(list, *arg));
+		return (ft_printstring(list, *arg, 0));
 	}
 	if (*str++ == 'd')
 	{
