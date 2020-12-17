@@ -74,11 +74,9 @@ long int	ft_checkpon(va_list *arg, char *str, p_list *list, char *head)
 	if (*str >= '0' && *str <= '9')
 		list->pon = ft_atoi(str);
 	else if (*str == '*')
-	{
 		list->pon = va_arg(*arg, int);
-		if (list->pon < 0)
-			list->pon = -1;
-	}
+	if (list->pon < 0)
+		list->pon = -1;
 	str += ft_goch(str, "ducsxX\0");
 	return (str - head);
 }

@@ -6,6 +6,8 @@ long int	ft_printstringdef(long int len, p_list *list, char *str)
 		len = list->pon;
 	else
 		list->pon = len;
+	if (len > list->width)
+		list->width = len;
 	if (list->pon <= list->width)
 	{
 		write(1, str, len);
