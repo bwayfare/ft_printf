@@ -170,6 +170,33 @@ ft_check.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_check.c.s
 .PHONY : ft_check.c.s
 
+ft_printchar.o: ft_printchar.c.o
+
+.PHONY : ft_printchar.o
+
+# target to build an object file
+ft_printchar.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o
+.PHONY : ft_printchar.c.o
+
+ft_printchar.i: ft_printchar.c.i
+
+.PHONY : ft_printchar.i
+
+# target to preprocess a source file
+ft_printchar.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.i
+.PHONY : ft_printchar.c.i
+
+ft_printchar.s: ft_printchar.c.s
+
+.PHONY : ft_printchar.s
+
+# target to generate assembly for a file
+ft_printchar.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.s
+.PHONY : ft_printchar.c.s
+
 ft_printf.o: ft_printf.c.o
 
 .PHONY : ft_printf.o
@@ -1424,6 +1451,9 @@ help:
 	@echo "... ft_check.o"
 	@echo "... ft_check.i"
 	@echo "... ft_check.s"
+	@echo "... ft_printchar.o"
+	@echo "... ft_printchar.i"
+	@echo "... ft_printchar.s"
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"

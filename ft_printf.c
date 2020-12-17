@@ -31,9 +31,13 @@ long int        ft_prin(va_list *arg, char *str, p_list *list)
 {
 	char        *tstr;
 	if (*str == 's')
+		return (ft_printstring(list, *arg));
+	if (*str == 'c')
+		return (ft_printchar(list, *arg));
+	if (*str == '%')
 	{
-		str++;
-		return (ft_printstring(list, *arg, 0));
+		write(1, "%", 1);
+		return (-2);
 	}
 	if (*str++ == 'd')
 	{
@@ -57,32 +61,42 @@ void 		ft_initlist(p_list *list)
 	list->flag = 0;
 }
 
-long int    ft_printf(char *str, ...)
+long int 	ft_start(va_list *arg, p_list *list, long int step, char *str)
 {
-	p_list 		list;
-	long int 	step;
-
-	step = 0;
-	if (!str)
-		return (0);
-	va_list arg;
-	va_start(arg, str);
 	while (*str)
 	{
 		if (*str == '%')
 		{
-			ft_initlist(&list);
-			step = ft_proc(&arg, ++str, &list);
-			if (step == -1)
-				return (-1);
-			str += step;
-			step = ft_prin(&arg, str++, &list);
-			if (step != -1)
-				list.len += step;
+			if (*(str + 1) != '%')
+			{
+				ft_initlist(list);
+				step = ft_proc(arg, ++str, list);
+				if (step == -1)
+					return (-1);
+				str += step;
+				step = ft_prin(arg, str++, list);
+				if (step != -1)
+					list->len += step;
+				continue;
+			}
+			else
+				str++;
 		}
 		ft_putchar_fd(*str, 1);
-		list.len++;
+		list->len++;
 		str++;
 	}
+	return (1);
+}
+
+long int    ft_printf(char *str, ...)
+{
+	p_list 		list;
+
+	if (!str)
+		return (0);
+	va_list arg;
+	va_start(arg, str);
+	ft_start(&arg, &list, 0, str);
 	return (list.len);
 }

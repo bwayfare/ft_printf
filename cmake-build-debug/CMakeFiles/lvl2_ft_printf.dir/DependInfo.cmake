@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_check.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_check.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printchar.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o"
   "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o"
   "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printstring.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o"
   "/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_atoi.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/libft/ft_atoi.c.o"

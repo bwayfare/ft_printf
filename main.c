@@ -31,5 +31,11 @@ int main()
 	printf("Длина 18 строки = %d\n\n", printf("!18__%.6s___!\n", u));
 	ft_printf("!19__%.*s___!\n\n", -12, u);
 	printf("!20__%.*s___!\n\n", -12, u);
+
+	printf("%ld\n" ,ft_printf("\n%%-*c\n"));
+	printf("%d\n" ,printf("\n%%-*c\n"));
+	char k = 'H';
+	ft_printf("%c", k);
+	ft_printf("135416531\n");
 	return 0;
 }
