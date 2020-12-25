@@ -81,6 +81,9 @@
 		<Unit filename="/Users/bwayfare/Learn/github/ft_printf/ft_printf/ft_check.c">
 			<Option target="lvl2_ft_printf"/>
 		</Unit>
+		<Unit filename="/Users/bwayfare/Learn/github/ft_printf/ft_printf/ft_intproc.c">
+			<Option target="lvl2_ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/bwayfare/Learn/github/ft_printf/ft_printf/ft_printchar.c">
 			<Option target="lvl2_ft_printf"/>
 		</Unit>

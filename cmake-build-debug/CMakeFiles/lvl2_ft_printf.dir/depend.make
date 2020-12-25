@@ -5,6 +5,10 @@ CMakeFiles/lvl2_ft_printf.dir/ft_check.c.o: ../ft_check.c
 CMakeFiles/lvl2_ft_printf.dir/ft_check.c.o: ../ft_printf.h
 CMakeFiles/lvl2_ft_printf.dir/ft_check.c.o: ../libft/libft.h
 
+CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o: ../ft_intproc.c
+CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o: ../ft_printf.h
+CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o: ../libft/libft.h
+
 CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o: ../ft_printchar.c
 CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o: ../ft_printf.h
 CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o: ../libft/libft.h

@@ -7,7 +7,7 @@ int main()
 		ft_printf("%-60.3s %5.*s Hello, %-+015.16dWorld!\n", "aaaa\0",-16, "bbbb\0", 15));
 	printf("%d%d\n\n", 1, 2);
 	printf("%-13.20s", "Hello\n\n\n");*/
-/*	char  *u = "proverochka";
+	char  *u = "proverochka";
 //  int j = -1;
 //    printf("\n%d %d\n", i, j);
 	char  *i = "nu eto finalnaya proverochka\0";
@@ -38,7 +38,7 @@ int main()
 	printf("%d\n" ,printf("\n%%-*c\n"));
 	char k = 'H';
 	ft_printf("%c", k);
-	ft_printf("135416531\n\n");*/
+	ft_printf("135416531\n\n");
 
 	printf("%ld\n", ft_printf("01 = %d\n", 153));
 	printf("%d\n\n", printf("02 = %d\n", 153));
@@ -49,8 +49,8 @@ int main()
 
 	printf("%ld\n", ft_printf("07 = %060d\n", 153));
 	printf("%d\n\n", printf("08 = %060d\n", 153));
-	printf("%ld\n", ft_printf("09 = %+060d\n", 153));
-	printf("%d\n\n", printf("10 = %+060d\n", 153));
+	printf("%ld\n", ft_printf("09 = %+060d\n", -153));
+	printf("%d\n\n", printf("10 = %+060d\n", -153));
 	printf("%ld\n", ft_printf("11 = %+60d\n", -153));
 	printf("%d\n\n", printf("12 = %+60d\n", -153));
 	printf("%ld\n", ft_printf("13 = %60d\n", -153));
@@ -69,5 +69,9 @@ int main()
 	printf("%d\n\n", printf("24 = %+-60d\n", 2147483647));
 	printf("%ld\n", ft_printf("25 = %+-60d\n", -2147483647));
 	printf("%d\n\n", printf("26 = %+-60d\n", -2147483647));
+	printf("%ld\n", ft_printf("27 = %+-60d\n", 0));
+	printf("%d\n\n", printf("28 = %+-60d\n", 0));
+	printf("%ld\n", ft_printf("29 = %+060d\n", 0));
+	printf("%d\n\n", printf("30 = %+060d\n", 0));
 	return 0;
 }

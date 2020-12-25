@@ -40,7 +40,7 @@ long int        ft_prin(va_list *arg, char *str, p_list *list)
 	}
 	if (*str == 'd')
 	{
-		return (ft_printint(*arg, list));
+		return (ft_printint(ft_itoa(va_arg(*arg, int)), list, 0));
 	}
 	return (1);
 }
