@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/nykanaka/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/nykanaka/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nykanaka/CLionProjects/lvl2_ft_printf
+CMAKE_SOURCE_DIR = /Users/bwayfare/Learn/github/ft_printf/ft_printf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bwayfare/Learn/github/ft_printf/ft_printf/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/nykanaka/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/nykanaka/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles /home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bwayfare/Learn/github/ft_printf/ft_printf/cmake-build-debug/CMakeFiles /Users/bwayfare/Learn/github/ft_printf/ft_printf/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bwayfare/Learn/github/ft_printf/ft_printf/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -223,6 +223,33 @@ ft_printf.s: ft_printf.c.s
 ft_printf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.s
 .PHONY : ft_printf.c.s
+
+ft_printint.o: ft_printint.c.o
+
+.PHONY : ft_printint.o
+
+# target to build an object file
+ft_printint.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o
+.PHONY : ft_printint.c.o
+
+ft_printint.i: ft_printint.c.i
+
+.PHONY : ft_printint.i
+
+# target to preprocess a source file
+ft_printint.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.i
+.PHONY : ft_printint.c.i
+
+ft_printint.s: ft_printint.c.s
+
+.PHONY : ft_printint.s
+
+# target to generate assembly for a file
+ft_printint.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.s
+.PHONY : ft_printint.c.s
 
 ft_printstring.o: ft_printstring.c.o
 
@@ -1457,6 +1484,9 @@ help:
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"
+	@echo "... ft_printint.o"
+	@echo "... ft_printint.i"
+	@echo "... ft_printint.s"
 	@echo "... ft_printstring.o"
 	@echo "... ft_printstring.i"
 	@echo "... ft_printstring.s"

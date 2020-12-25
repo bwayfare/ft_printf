@@ -27,5 +27,6 @@ int 				ft_checkflag(char ch, p_list *list);
 long int			ft_checkwidth(va_list *arg, char *str, p_list *list);
 long int			ft_checkpon(va_list *arg, char *str, p_list *list, char *head);
 long int			ft_printchar(p_list *list, va_list arg);
+long int			ft_printint(va_list arg, p_list *list);
 
 #endif

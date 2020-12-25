@@ -6,7 +6,7 @@ long int    ft_proc(va_list *arg, char *str, p_list *list)
 	while (*str)
 	{
 		if (ft_singltype(*str, "ducsxX\0"))
-			return (0);
+			return (str - head);
 		if (*str == '.')
 		{
 			list->flag = 1;
@@ -29,7 +29,6 @@ long int    ft_proc(va_list *arg, char *str, p_list *list)
 
 long int        ft_prin(va_list *arg, char *str, p_list *list)
 {
-	char        *tstr;
 	if (*str == 's')
 		return (ft_printstring(list, *arg));
 	if (*str == 'c')
@@ -39,13 +38,9 @@ long int        ft_prin(va_list *arg, char *str, p_list *list)
 		write(1, "%", 1);
 		return (-2);
 	}
-	if (*str++ == 'd')
+	if (*str == 'd')
 	{
-		tstr = ft_itoa(va_arg(*arg, int));
-		list->len += ft_strlen(tstr);
-		ft_putstr_fd(tstr, 1);
-		free(tstr);
-		str++;
+		return (ft_printint(*arg, list));
 	}
 	return (1);
 }
@@ -63,6 +58,7 @@ void 		ft_initlist(p_list *list)
 
 long int 	ft_start(va_list *arg, p_list *list, long int step, char *str)
 {
+	list->len = 0;
 	while (*str)
 	{
 		if (*str == '%')

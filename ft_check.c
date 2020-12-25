@@ -25,9 +25,12 @@ int			ft_goch(char *str, char *ch)
 
 int 		ft_singltype(char ch, char *set)
 {
-	while(*set++ != '\0')
+	while(*set != '\0')
+	{
 		if (ch == *set)
 			return (1);
+		set++;
+	}
 	return (0);
 }
 
@@ -65,7 +68,7 @@ long int	 ft_checkwidth(va_list *arg, char *str, p_list *list)
 		list->width = ft_atoi(str);
 	else if (*str == '*' && list->flag == 0)
 		list->width = va_arg(*arg, int);
-	str += ft_goch(str, ".\0");
+	str += ft_goch(str, ".ducsxX\0");
 	return (str - head);
 }
 
