@@ -16,15 +16,13 @@ unistd.h
 stdarg.h
 -
 
+/Users/bwayfare/Learn/github/ft_printf/ft_printf/ft_printint.c
+ft_printf.h
+/Users/bwayfare/Learn/github/ft_printf/ft_printf/ft_printf.h
+
 /Users/bwayfare/Learn/github/ft_printf/ft_printf/libft/libft.h
 stdlib.h
 -
 unistd.h
 -
-
-/Users/bwayfare/Learn/github/ft_printf/ft_printf/main.c
-stdio.h
--
-ft_printf.h
-/Users/bwayfare/Learn/github/ft_printf/ft_printf/ft_printf.h
 
