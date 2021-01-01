@@ -1,6 +1,6 @@
 #include "ft_printf.h"
 
-long int 	ft_printint(char *tstr, p_list *list, int i)
+long int 	ft_printint(char *tstr, p_list *list, int i, int j)
 {
 	int		len;
 
@@ -11,20 +11,20 @@ long int 	ft_printint(char *tstr, p_list *list, int i)
 		if (list->zap == '0')
 		{
 			if (list->poz == 1)
-				ft_intzappoz(tstr, len, list, i);
+				ft_intzappoz(tstr, len, list, &i, &j);
 			else
-				ft_intzap(tstr, len, list, i);
+				ft_intzap(tstr, len, list, &i, &j);
 		}
 		else
 		{
 			if (list->poz == 1)
-				ft_intpoz(tstr, len, list, i);
+				ft_intpoz(tstr, len, list, &i, &j);
 			else
-				ft_intpozelse(tstr, len, list, i);
+				ft_intpozelse(tstr, len, list, &i, &j);
 		}
 	}
 	else
-		ft_intdef(tstr, len, list, i);
+		ft_intdef(tstr, len, list, &i, &j);
 	free(tstr);
-	return (list->width + len);
+	return (i + j + len);
 }

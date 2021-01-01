@@ -27,11 +27,11 @@ int 				ft_checkflag(char ch, p_list *list);
 long int			ft_checkwidth(va_list *arg, char *str, p_list *list);
 long int			ft_checkpon(va_list *arg, char *str, p_list *list, char *head);
 long int			ft_printchar(p_list *list, va_list arg);
-long int			ft_printint(char *tstr, p_list *list, int i);
-void 				ft_intdef(char *tstr, int len, p_list *list, int i);
-void 				ft_intpozelse(char *tstr, int len, p_list *list, int i);
-void 				ft_intpoz(char *tstr, int len, p_list *list, int i);
-void 				ft_intzap(char *tstr, int len, p_list *list, int i);
-void 				ft_intzappoz(char *tstr, int len, p_list *list, int i);
+long int			ft_printint(char *tstr, p_list *list, int i, int j);
+void 				ft_intdef(char *tstr, int len, p_list *list, int *i, int *j);
+void 				ft_intpozelse(char *tstr, int len, p_list *list, int *i, int *j);
+void 				ft_intpoz(char *tstr, int len, p_list *list, int *i, int *j);
+void 				ft_intzap(char *tstr, int len, p_list *list, int *i, int *j);
+void 				ft_intzappoz(char *tstr, int len, p_list *list, int *i, int *j);
 
 #endif
