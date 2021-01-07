@@ -69,6 +69,11 @@ long int	 ft_checkwidth(va_list *arg, char *str, p_list *list)
 	else if (*str == '*' && list->flag == 0)
 		list->width = va_arg(*arg, int);
 	str += ft_goch(str, ".ducsxX\0");
+	if (list->width < 0)
+	{
+		list->width *= -1;
+		list->def = 1;
+	}
 	return (str - head);
 }
 

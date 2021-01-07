@@ -7,14 +7,14 @@ int main()
 		ft_printf("%-60.3s %5.*s Hello, %-+015.16dWorld!\n", "aaaa\0",-16, "bbbb\0", 15));
 	printf("%d%d\n\n", 1, 2);
 	printf("%-13.20s", "Hello\n\n\n");*/
-	/*char  *u = "proverochka";
+	char  *u = "proverochka";
 //  int j = -1;
 //    printf("\n%d %d\n", i, j);
-	char  *i = "nu eto finalnaya proverochka\0";
-	printf("Длина 01 строки = %ld\n\n", ft_printf("!01__%15.40s___!\n", i));
-	printf("Длина 02 строки = %d\n\n", printf("!02__%15.40s___!\n", i));
-	ft_printf("!03__%-20.15s___!\n\n", i);
-	printf("!04__%-20.15s___!\n\n", i);
+	char  *ch = "nu eto finalnaya proverochka\0";
+	printf("Длина 01 строки = %ld\n\n", ft_printf("!01__%15.40s___!\n", ch));
+	printf("Длина 02 строки = %d\n\n", printf("!02__%15.40s___!\n", ch));
+	ft_printf("!03__%-20.15s___!\n\n", ch);
+	printf("!04__%-20.15s___!\n\n", ch);
 	ft_printf("!05__%s___!\n\n", u);
 	printf("!06__%s___!\n\n", u);
 	ft_printf("!07__%10.2s___!\n\n", u);
@@ -38,9 +38,9 @@ int main()
 	printf("%d\n" ,printf("\n%%-*c\n"));
 	char k = 'H';
 	ft_printf("%c", k);
-	ft_printf("135416531\n\n");*/
+	ft_printf("135416531\n\n");
 
-/*	printf("%ld\n", ft_printf("01 = %d\n", 153));
+	printf("%ld\n", ft_printf("01 = %d\n", 153));
 	printf("%d\n\n", printf("02 = %d\n", 153));
 	printf("%ld\n", ft_printf("03 = %+d\n", -153));
 	printf("%d\n\n", printf("04 = %+d\n", -153));
@@ -50,7 +50,7 @@ int main()
 	printf("%ld\n", ft_printf("07 = %060d\n", 153));
 	printf("%d\n\n", printf("08 = %060d\n", 153));
 	printf("%ld\n", ft_printf("09 = %+060d\n", -153));
-	printf("%d\n\n", printf("10 = %+060d\n", -153));*/
+	printf("%d\n\n", printf("10 = %+060d\n", -153));
 	printf("%ld\n", ft_printf("11 = %+60.70d\n", -153));
 	printf("%d\n\n", printf("12 = %+60.70d\n", -153));
 	printf("%ld\n", ft_printf("13 = %60d\n", -153));
@@ -79,7 +79,7 @@ int main()
 	int hui = 2147483647;
 	int dvahuya = -2147483648;
 	i = ft_printf("!___01 MY + = %.d___!\n   !___MY - = %.d___!\n", hui, dvahuya);
-	j = printf("!___02 NO + = %.d___!\n   !___NO - = %.d___!\n", hui, dvahuya);
+	j = printf("!___02 NO + = %.d___!\n   !___MY - = %.d___!\n", hui, dvahuya);
 	printf("					мой = %ld, системный = %d\n\n", i, j);
 	i = ft_printf("!___03 MY + = %3.3d___!\n   !___MY - = %3.3d___!\n", hui, dvahuya);
 	j = printf("!___04 NO + = %3.3d___!\n   !___NO - = %3.3d___!\n", hui, dvahuya);
