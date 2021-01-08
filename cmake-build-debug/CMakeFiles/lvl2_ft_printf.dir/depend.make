@@ -9,6 +9,10 @@ CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o: ../ft_intproc.c
 CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o: ../ft_printf.h
 CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o: ../libft/libft.h
 
+CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o: ../ft_longtoa.c
+CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o: ../ft_printf.h
+CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o: ../libft/libft.h
+
 CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o: ../ft_printchar.c
 CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o: ../ft_printf.h
 CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o: ../libft/libft.h

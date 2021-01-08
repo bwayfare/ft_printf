@@ -8,9 +8,9 @@
 
 typedef struct		print_list
 {
-	long int        width;
-	long int        pon;
-	long int        len;
+	int        		width;
+	int        		pon;
+	int        		len;
 	int             poz;
 	int             def;
 	int 			sharp;
@@ -19,19 +19,21 @@ typedef struct		print_list
 }					p_list;
 
 
-long int			ft_printf(char *str, ...);
+int					ft_printf(char *str, ...);
 int 				ft_singltype(char ch, char *set);
 int					ft_goch(char *str, char *ch);
-long int			ft_printstring(p_list *list, va_list arg);
+int					ft_printstring(p_list *list, va_list arg);
 int 				ft_checkflag(char ch, p_list *list);
-long int			ft_checkwidth(va_list *arg, char *str, p_list *list);
-long int			ft_checkpon(va_list *arg, char *str, p_list *list, char *head);
-long int			ft_printchar(p_list *list, va_list arg);
-long int			ft_printint(char *tstr, p_list *list, int i, int j);
+int					ft_checkwidth(va_list *arg, char *str, p_list *list);
+int					ft_checkpon(va_list *arg, char *str, p_list *list, char *head);
+int					ft_printchar(p_list *list, va_list arg);
+int					ft_printint(char *tstr, p_list *list, int i, int j);
 void 				ft_intdef(char *tstr, int len, p_list *list, int *i, int *j);
 void 				ft_intpozelse(char *tstr, int len, p_list *list, int *i, int *j);
 void 				ft_intpoz(char *tstr, int len, p_list *list, int *i, int *j);
 void 				ft_intzap(char *tstr, int len, p_list *list, int *i, int *j);
 void 				ft_intzappoz(char *tstr, int len, p_list *list, int *i, int *j);
+char				*ft_longtoa(long int number);
+int 				ft_uintcheck(long int temp, p_list *list);
 
 #endif

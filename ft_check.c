@@ -59,7 +59,7 @@ int			ft_checkflag(char ch, p_list *list)
 	return (0);
 }
 
-long int	 ft_checkwidth(va_list *arg, char *str, p_list *list)
+int	 ft_checkwidth(va_list *arg, char *str, p_list *list)
 {
 	char	*head;
 
@@ -74,10 +74,10 @@ long int	 ft_checkwidth(va_list *arg, char *str, p_list *list)
 		list->width *= -1;
 		list->def = 1;
 	}
-	return (str - head);
+	return ((int)(str - head));
 }
 
-long int	ft_checkpon(va_list *arg, char *str, p_list *list, char *head)
+int	ft_checkpon(va_list *arg, char *str, p_list *list, char *head)
 {
 	if (*str >= '0' && *str <= '9')
 		list->pon = ft_atoi(str);
@@ -86,5 +86,5 @@ long int	ft_checkpon(va_list *arg, char *str, p_list *list, char *head)
 	if (list->pon < 0)
 		list->pon = -1;
 	str += ft_goch(str, "ducsxX\0");
-	return (str - head);
+	return ((int)(str - head));
 }

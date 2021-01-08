@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_check.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_check.c.o"
   "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_intproc.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_longtoa.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o"
   "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printchar.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o"
   "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o"
   "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printint.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o"

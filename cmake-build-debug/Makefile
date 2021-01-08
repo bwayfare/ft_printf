@@ -197,6 +197,33 @@ ft_intproc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.s
 .PHONY : ft_intproc.c.s
 
+ft_longtoa.o: ft_longtoa.c.o
+
+.PHONY : ft_longtoa.o
+
+# target to build an object file
+ft_longtoa.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o
+.PHONY : ft_longtoa.c.o
+
+ft_longtoa.i: ft_longtoa.c.i
+
+.PHONY : ft_longtoa.i
+
+# target to preprocess a source file
+ft_longtoa.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.i
+.PHONY : ft_longtoa.c.i
+
+ft_longtoa.s: ft_longtoa.c.s
+
+.PHONY : ft_longtoa.s
+
+# target to generate assembly for a file
+ft_longtoa.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.s
+.PHONY : ft_longtoa.c.s
+
 ft_printchar.o: ft_printchar.c.o
 
 .PHONY : ft_printchar.o
@@ -1508,6 +1535,9 @@ help:
 	@echo "... ft_intproc.o"
 	@echo "... ft_intproc.i"
 	@echo "... ft_intproc.s"
+	@echo "... ft_longtoa.o"
+	@echo "... ft_longtoa.i"
+	@echo "... ft_longtoa.s"
 	@echo "... ft_printchar.o"
 	@echo "... ft_printchar.i"
 	@echo "... ft_printchar.s"

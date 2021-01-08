@@ -1,10 +1,10 @@
 #include "ft_printf.h"
 
-long int 	ft_printstring(p_list *list, va_list arg)
+int 	ft_printstring(p_list *list, va_list arg)
 {
-	long int 	len;
+	int 		len;
 	char		*str;
-	long int 	i;
+	int 		i;
 
 	i = 0;
 	str = va_arg(arg, char *);

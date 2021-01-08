@@ -29,7 +29,15 @@ void		ft_checkponwidth(p_list *list, int len, char *tstr, int *i)
 	}
 }
 
-long int ft_printint(char *tstr, p_list *list, int i, int j)
+int 		ft_uintcheck(long int temp, p_list *list)
+{
+	if (temp < 0)
+		return (0);
+	else
+		return (ft_printint(ft_longtoa(temp), list, 0, 0));
+}
+
+int 		ft_printint(char *tstr, p_list *list, int i, int j)
 {
 	int		len;
 

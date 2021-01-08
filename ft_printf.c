@@ -1,12 +1,12 @@
 #include "ft_printf.h"
 
-long int    ft_proc(va_list *arg, char *str, p_list *list)
+int    ft_proc(va_list *arg, char *str, p_list *list)
 {
 	char *head = str;
 	while (*str)
 	{
 		if (ft_singltype(*str, "ducsxX\0"))
-			return (str - head);
+			return ((int)(str - head));
 		if (*str == '.')
 		{
 			list->flag = 1;
@@ -16,7 +16,7 @@ long int    ft_proc(va_list *arg, char *str, p_list *list)
 			else if (ft_singltype(*str, "ducsxX\0"))
 				{
 					list->pon = 0;
-					return (str - head);
+					return ((int)(str - head));
 				}
 		}
 		if (ft_checkflag(*str, list))
@@ -24,10 +24,10 @@ long int    ft_proc(va_list *arg, char *str, p_list *list)
 		else if (list->flag == 0 && (str += ft_checkwidth(arg, str, list)))
 			continue;
 	}
-	return (str - head);
+	return ((int)(str - head));
 }
 
-long int        ft_prin(va_list *arg, char *str, p_list *list)
+int        ft_prin(va_list *arg, char *str, p_list *list)
 {
 	if (*str == 's')
 		return (ft_printstring(list, *arg));
@@ -38,9 +38,11 @@ long int        ft_prin(va_list *arg, char *str, p_list *list)
 		write(1, "%", 1);
 		return (-2);
 	}
-	if (*str == 'd')
-	{
+	if (*str == 'd' || *str == 'i')
 		return (ft_printint(ft_itoa(va_arg(*arg, int)), list, 0, 0));
+	if (*str == 'u')
+	{
+		return (ft_uintcheck(va_arg(*arg, unsigned int), list));
 	}
 	return (1);
 }
@@ -56,7 +58,7 @@ void 		ft_initlist(p_list *list)
 	list->flag = 0;
 }
 
-long int 	ft_start(va_list *arg, p_list *list, long int step, char *str)
+int 	ft_start(va_list *arg, p_list *list, int step, char *str)
 {
 	list->len = 0;
 	while (*str)
@@ -78,14 +80,14 @@ long int 	ft_start(va_list *arg, p_list *list, long int step, char *str)
 			else
 				str++;
 		}
-		ft_putchar_fd(*str, 1);
+		write(1, str, 1);
 		list->len++;
 		str++;
 	}
 	return (1);
 }
 
-long int    ft_printf(char *str, ...)
+int    ft_printf(char *str, ...)
 {
 	p_list 		list;
 
