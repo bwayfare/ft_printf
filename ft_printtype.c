@@ -2,12 +2,19 @@
 
 int		ft_printtype(char *str, va_list *arg, t_list *list)
 {
+	char *tstr;
+
 	if (*str == 's')
 		return (ft_printstring(list, va_arg(*arg, char *)));
 	if (*str == 'c')
 		return (ft_printchar(list, *arg));
 	if (*str == 'd' || *str == 'i')
-		return (ft_printint(ft_itoa(va_arg(*arg, int)), list, 0, 0));
+	{
+		tstr = ft_itoa(va_arg(*arg, int));
+		list->flag = (int)ft_strlen(tstr) + ft_printint(tstr, list, 0, 0);
+		free(tstr);
+		return (list->flag);
+	}
 	if (*str == 'u')
 		return (ft_uintcheck(va_arg(*arg, unsigned int), list));
 	if (*str == 'X')

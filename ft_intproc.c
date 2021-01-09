@@ -17,7 +17,7 @@ void	ft_checkponwidth(t_list *list, int len, char *tstr, int *i)
 	if (list->pon == 0 && tstr[0] == '0')
 	{
 		list->flag = 5;
-		*i -= 2;
+		*i = -1;
 	}
 	if (tstr[0] == '-' || list->poz == 1)
 	{
@@ -62,8 +62,7 @@ int		ft_printint(char *tstr, t_list *list, int i, int j)
 					ft_intzappoz(tstr, list, &i, &j);
 				else
 					ft_intzap(tstr, list, &i, &j);
-			}
-			else
+			} else
 			{
 				if (list->poz == 1)
 					ft_intpoz(tstr, list, &i, &j);
@@ -74,7 +73,5 @@ int		ft_printint(char *tstr, t_list *list, int i, int j)
 		else
 			ft_intdef(tstr, list, &i, &j);
 	}
-	list->flag = (int)ft_strlen(tstr);
-	free(tstr);
-	return (i + j + list->flag);
+	return (i + j);
 }
