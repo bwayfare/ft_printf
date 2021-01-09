@@ -49,7 +49,7 @@ int		ft_prin(va_list *arg, const char *str, t_list *list, int flag)
 		return (1);
 	}
 	if (*str == '%')
-		return (ft_printchar(list, *arg));
+		return (ft_printchar(list, '%'));
 	if (ft_singltype(*str, "pduicsxX\0"))
 		return (ft_printtype(str, arg, list));
 	return (1);
@@ -58,7 +58,7 @@ int		ft_prin(va_list *arg, const char *str, t_list *list, int flag)
 void	ft_initlist(t_list *list)
 {
 	list->def = 0;
-	list->zap = 0;
+	list->zap = 32;
 	list->poz = 0;
 	list->width = -1;
 	list->pon = -1;

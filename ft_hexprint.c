@@ -40,7 +40,7 @@ void	ft_hexprint(t_list *list, char *str)
 	j = 0;
 	if (list->def)
 	{
-		while (j++ < list->pon - 1)
+		while (j++ < list->pon)
 			write(1, "0", 1);
 		while (*str)
 			write(1, str++, 1);
@@ -51,7 +51,7 @@ void	ft_hexprint(t_list *list, char *str)
 	{
 		while (i++ < list->width)
 			write(1, " ", 1);
-		while (j++ < list->pon - 1)
+		while (j++ < list->pon)
 			write(1, "0", 1);
 		while (*str)
 			write(1, str++, 1);

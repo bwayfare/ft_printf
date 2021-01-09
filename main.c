@@ -34,13 +34,22 @@ int main()
 	printf("Длина 21 строки = %d\n\n", ft_printf("%s%s\n", "Hello,\0", " world!\0"));
 	printf("Длина 22 строки = %d\n\n", printf("%s%s\n", "Hello,\0", " world!\0"));
 */
-	printf("%d\n" ,ft_printf("\nmoy %5%\n"));
+	printf("%d\n" ,ft_printf("\nmoy %5%-*c\n"));
 	printf("%d\n" ,printf("\nsys %5%-*c\n"));
+	printf("%d\n" ,ft_printf("\nmoy %%-*c\n"));
+	printf("%d\n" ,printf("\nsys %%-*c\n"));
+	printf("%d\n" ,ft_printf("\nmoy %-05%\n"));
+	printf("%d\n" ,printf("\nsys %-05%\n"));
+	printf("%d\n" ,ft_printf("%"));
+	printf("%d\n" ,printf("%"));
+
 	char k = 'H';
 	ft_printf("%c\n", k);
 	printf("\n%d\n", ft_printf(">------------<%28c>------------<\n", k));
 	printf("\n%d\n", printf(">------------<%28c>------------<\n", k));
 	ft_printf("135416531\n\n");
+
+	/*
 	int iint = 153;
 	printf("%d\n", ft_printf("01 = %i\n", iint));
 	printf("%d\n\n", printf("02 = %i\n", iint));
@@ -123,12 +132,12 @@ int main()
 	printf("					мой = %ld, системный = %d\n\n", i, j);
 	i = ft_printf("!___25 MY + = %*.*d___!\n   !___MY - = %*.*d___!\n", -25, -15, hui, -25, -15, dvahuya);
 	j = printf("!___26 NO + = %*.*d___!\n   !___NO - = %*.*d___!\n", -25, -15, hui, -25, -15, dvahuya);
-	printf("					мой = %ld, системный = %d\n\n", i, j);
+	printf("					мой = %ld, системный = %d\n\n", i, j);*/
 	unsigned int utemp = 3147483690;
-	ft_printf("Proverka unsigned int = %15.70u\n", utemp);
-	printf("Proverka unsigned int = %15.70u\n", utemp);
-	printf("%d\n", ft_printf("Proverka hex = %90X\n", 15));
-	printf("%d\n", printf("Proverka hex = %90X\n", 15));
+	/*ft_printf("Proverka unsigned int = %15.70u\n", utemp);
+	printf("Proverka unsigned int = %15.70u\n", utemp);*/
+	printf("%d\n", ft_printf("Proverka hex = %.5X\n", 21));
+	printf("%d\n", printf("Proverka hex = %.5X\n", 21));
 	unsigned int uutemp = 3147483690;
 	printf("%d\n", ft_printf("Proverka p = %25p\n", &uutemp));
 	printf("%d\n", printf("Proverka p = %25p\n", &uutemp));

@@ -34,7 +34,7 @@ int		ft_printstring(t_list *list, char *str)
 	else
 	{
 		while (i++ < list->width - len)
-			write(1, " ", 1);
+			write(1, &list->zap, 1);
 		write(1, str, len);
 	}
 	return (list->width);

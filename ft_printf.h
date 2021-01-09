@@ -29,6 +29,16 @@ typedef struct		s_print_list
 	int				flag;
 }					t_list;
 
+typedef struct 		s_check_params
+{
+	int 			f_pon;
+	int 			f_width;
+	int 			f_poz;
+	int 			f_def;
+	int 			f_zap;
+	int 			f_dot;
+}					t_params;
+
 int					ft_printf(const char *str, ...);
 int					ft_singltype(char ch, char *set);
 int					ft_goch(const char *str, const char *ch);
@@ -37,7 +47,7 @@ int					ft_checkflag(char ch, t_list *list);
 int					ft_checkwidth(va_list *arg, const char *str, t_list *list);
 int					ft_checkpon(va_list *arg, const char *str,
 					t_list *list, const char *head);
-int					ft_printchar(t_list *list, va_list arg);
+int					ft_printchar(t_list *list, unsigned char ch);
 int					ft_printint(char *tstr, t_list *list, int i, int j);
 void				ft_intdef(char *tstr, t_list *list, int *i, int *j);
 void				ft_intpozelse(char *tstr, t_list *list, int *i, int *j);

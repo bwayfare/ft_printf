@@ -8,7 +8,7 @@ HEADER  =		ft_printf.h
 
 FLAGS   =		-Wall -Werror -Wextra
 
-NAME    =		ft_printf.a
+NAME    =		libftprintf.a
 
 RM      =		rm -f
 
@@ -47,7 +47,7 @@ fclean:			clean
 re:				fclean all
 
 so:				$(OBJS)
-					$(CC) -o ft_printf.so $(OBJS) -shared
+					$(CC) -o libftprintf.so $(OBJS) -shared
 
 bonus:			$(OBJS)
 					$(LIB) $(NAME) $(OBJS)

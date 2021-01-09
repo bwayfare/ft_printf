@@ -19,7 +19,7 @@ int		ft_printtype(const char *str, va_list *arg, t_list *list)
 	if (*str == 's')
 		return (ft_printstring(list, va_arg(*arg, char *)));
 	if (*str == 'c')
-		return (ft_printchar(list, *arg));
+		return (ft_printchar(list, (char)va_arg(*arg, int)));
 	if (*str == 'd' || *str == 'i')
 	{
 		tstr = ft_itoa(va_arg(*arg, int));

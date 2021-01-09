@@ -12,14 +12,12 @@
 
 #include "ft_printf.h"
 
-int		ft_printchar(t_list *list, va_list arg)
+int		ft_printchar(t_list *list, unsigned char str)
 {
 	int				len;
-	unsigned char	str;
 	int				i;
 
 	i = 0;
-	str = (char)va_arg(arg, int);
 	len = 1;
 	if (len > list->width)
 		list->width = len;
@@ -32,7 +30,7 @@ int		ft_printchar(t_list *list, va_list arg)
 	else
 	{
 		while (i++ < list->width - len)
-			write(1, " ", 1);
+			write(1, &list->zap, 1);
 		write(1, &str, len);
 	}
 	return (list->width);
