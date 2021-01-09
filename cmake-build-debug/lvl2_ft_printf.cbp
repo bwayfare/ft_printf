@@ -76,6 +76,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_atoi.c">
+			<Option target="lvl2_ft_printf"/>
+		</Unit>
+		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_bzero.c">
+			<Option target="lvl2_ft_printf"/>
+		</Unit>
+		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_calloc.c">
+			<Option target="lvl2_ft_printf"/>
+		</Unit>
 		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_check.c">
 			<Option target="lvl2_ft_printf"/>
 		</Unit>
@@ -86,6 +95,9 @@
 			<Option target="lvl2_ft_printf"/>
 		</Unit>
 		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_intproc.c">
+			<Option target="lvl2_ft_printf"/>
+		</Unit>
+		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_itoa.c">
 			<Option target="lvl2_ft_printf"/>
 		</Unit>
 		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_longtoa.c">
@@ -106,136 +118,7 @@
 		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printstring.c">
 			<Option target="lvl2_ft_printf"/>
 		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_atoi.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_bzero.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_calloc.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_isalnum.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_isalpha.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_isascii.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_isdigit.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_isprint.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_itoa.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstadd_back.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstadd_front.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstclear.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstdelone.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstiter.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstlast.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstmap.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstnew.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstsize.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_memccpy.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_memchr.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_memcmp.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_memcpy.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_memmove.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_memset.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_putchar_fd.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_putendl_fd.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_putnbr_fd.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_putstr_fd.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_split.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strchr.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strdup.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strjoin.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strlcat.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strlcpy.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strlen.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strmapi.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strncmp.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strnstr.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strrchr.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strtrim.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_substr.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_tolower.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_toupper.c">
-			<Option target="lvl2_ft_printf"/>
-		</Unit>
-		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/libft/libft.h">
+		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_strlen.c">
 			<Option target="lvl2_ft_printf"/>
 		</Unit>
 		<Unit filename="/home/nykanaka/CLionProjects/lvl2_ft_printf/main.c">

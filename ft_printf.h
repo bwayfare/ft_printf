@@ -1,7 +1,6 @@
 #ifndef FT_PRINTF_H
 #define FT_PRINTF_H
 
-#include "libft/libft.h"
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdarg.h>
@@ -38,5 +37,10 @@ int 				ft_uintcheck(long int temp, p_list *list);
 int					ft_hexproc(p_list *list, long int temp, int flag);
 void 				ft_hexwidthpon(p_list *list, int len);
 void 				ft_hexprint(p_list *list, char *str);
+int					ft_atoi(const char *str);
+void				ft_bzero(void *s, size_t n);
+void				*ft_calloc(size_t num, size_t size);
+size_t				ft_strlen(const char *s);
+char				*ft_itoa(int number);
 
 #endif

@@ -1,33 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bwayfare <bwayfare@student.21-schoo>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/17 00:51:56 by bwayfare          #+#    #+#             */
-/*   Updated: 2020/11/17 00:51:57 by bwayfare         ###   ########.fr       */
+/*   Created: 2020/11/17 00:52:33 by bwayfare          #+#    #+#             */
+/*   Updated: 2020/11/17 00:54:05 by bwayfare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_printf.h"
 
-void	ft_putnbr_fd(int n, int fd)
+size_t	ft_strlen(const char *s)
 {
-	if (fd < 0)
-		return ;
-	if (n == MIN_INT)
-		ft_putstr_fd(C_MIN_INT, fd);
-	else if (n < 0)
+	size_t i;
+
+	i = 0;
+	while (*s)
 	{
-		ft_putchar_fd('-', fd);
-		ft_putnbr_fd(-n, fd);
+		i++;
+		s++;
 	}
-	else if (n >= 10)
-	{
-		ft_putnbr_fd(n / 10, fd);
-		ft_putchar_fd(n % 10 + '0', fd);
-	}
-	else
-		ft_putchar_fd(n + '0', fd);
+	return (i);
 }
