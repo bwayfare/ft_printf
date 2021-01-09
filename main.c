@@ -7,7 +7,7 @@ int main()
 		ft_printf("%-60.3s %5.*s Hello, %-+015.16dWorld!\n", "aaaa\0",-16, "bbbb\0", 15));
 	printf("%d%d\n\n", 1, 2);
 	printf("%-13.20s", "Hello\n\n\n");*/
-	char  *u = "proverochka";
+	/*char  *u = "proverochka";
 //  int j = -1;
 //    printf("\n%d %d\n", i, j);
 	char  *ch = "nu eto finalnaya proverochka\0";
@@ -33,11 +33,13 @@ int main()
 	printf("!20__%.*s___!\n\n", -12, u);
 	printf("Длина 21 строки = %d\n\n", ft_printf("%s%s\n", "Hello,\0", " world!\0"));
 	printf("Длина 22 строки = %d\n\n", printf("%s%s\n", "Hello,\0", " world!\0"));
-
-	printf("%d\n" ,ft_printf("\n%%-*c\n"));
-	printf("%d\n" ,printf("\n%%-*c\n"));
+*/
+	printf("%d\n" ,ft_printf("\nmoy %5%\n"));
+	printf("%d\n" ,printf("\nsys %5%-*c\n"));
 	char k = 'H';
-	ft_printf("%c", k);
+	ft_printf("%c\n", k);
+	printf("\n%d\n", ft_printf(">------------<%28c>------------<\n", k));
+	printf("\n%d\n", printf(">------------<%28c>------------<\n", k));
 	ft_printf("135416531\n\n");
 	int iint = 153;
 	printf("%d\n", ft_printf("01 = %i\n", iint));
@@ -130,7 +132,5 @@ int main()
 	unsigned int uutemp = 3147483690;
 	printf("%d\n", ft_printf("Proverka p = %25p\n", &uutemp));
 	printf("%d\n", printf("Proverka p = %25p\n", &uutemp));
-	while (1)
-		;
 	return 0;
 }

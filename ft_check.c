@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-int			ft_goch(char *str, char *ch)
+int		ft_goch(const char *str, const char *ch)
 {
 	int i;
 	int flag;
@@ -35,7 +35,7 @@ int			ft_goch(char *str, char *ch)
 	return (j);
 }
 
-int			ft_singltype(char ch, char *set)
+int		ft_singltype(char ch, char *set)
 {
 	while (*set != '\0')
 	{
@@ -46,7 +46,7 @@ int			ft_singltype(char ch, char *set)
 	return (0);
 }
 
-int			ft_checkflag(char ch, t_list *list)
+int		ft_checkflag(char ch, t_list *list)
 {
 	if ((ch == ' ' || ch == '0') && list->flag == 0)
 	{
@@ -71,16 +71,16 @@ int			ft_checkflag(char ch, t_list *list)
 	return (0);
 }
 
-int			ft_checkwidth(va_list *arg, char *str, t_list *list)
+int		ft_checkwidth(va_list *arg, const char *str, t_list *list)
 {
-	char	*head;
+	const char	*head;
 
 	head = str;
 	if (*str >= '0' && *str <= '9' && list->flag == 0)
 		list->width = ft_atoi(str);
 	else if (*str == '*' && list->flag == 0)
 		list->width = va_arg(*arg, int);
-	str += ft_goch(str, ".pducisxX\0");
+	str += ft_goch(str, ".pducisxX%\0");
 	if (list->width < 0)
 	{
 		list->width *= -1;
@@ -89,7 +89,8 @@ int			ft_checkwidth(va_list *arg, char *str, t_list *list)
 	return ((int)(str - head));
 }
 
-int			ft_checkpon(va_list *arg, char *str, t_list *list, char *head)
+int		ft_checkpon(va_list *arg, const char *str,
+				 t_list *list, const char *head)
 {
 	if (*str >= '0' && *str <= '9')
 		list->pon = ft_atoi(str);
@@ -97,6 +98,6 @@ int			ft_checkpon(va_list *arg, char *str, t_list *list, char *head)
 		list->pon = va_arg(*arg, int);
 	if (list->pon < 0)
 		list->pon = -1;
-	str += ft_goch(str, "pducisxX\0");
+	str += ft_goch(str, "pducisxX%\0");
 	return ((int)(str - head));
 }

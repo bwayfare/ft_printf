@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-int		ft_printtype(char *str, va_list *arg, t_list *list)
+int		ft_printtype(const char *str, va_list *arg, t_list *list)
 {
 	char	*tstr;
 
