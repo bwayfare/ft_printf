@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_longtoa.c
+ft_printf.h
+/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
+
 /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
 libft/libft.h
 /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/libft.h
@@ -21,10 +25,4 @@ stdlib.h
 -
 unistd.h
 -
-
-/home/nykanaka/CLionProjects/lvl2_ft_printf/main.c
-stdio.h
--
-ft_printf.h
-/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
 

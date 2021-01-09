@@ -1,13 +1,11 @@
 #include "ft_printf.h"
 
-int 	ft_printstring(p_list *list, va_list arg)
+int 	ft_printstring(p_list *list, char *str)
 {
 	int 		len;
-	char		*str;
 	int 		i;
 
 	i = 0;
-	str = va_arg(arg, char *);
 	len = ft_strlen(str);
 	if (len > list->pon && list->pon != -1)
 		len = list->pon;

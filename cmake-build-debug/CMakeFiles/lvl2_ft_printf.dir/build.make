@@ -90,9 +90,35 @@ CMakeFiles/lvl2_ft_printf.dir/ft_check.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvl2_ft_printf.dir/ft_check.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_check.c -o CMakeFiles/lvl2_ft_printf.dir/ft_check.c.s
 
+CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
+CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.o: ../ft_hexprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_hexprint.c
+
+CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_hexprint.c > CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.i
+
+CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_hexprint.c -o CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.s
+
+CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
+CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.o: ../ft_hexproc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_hexproc.c
+
+CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_hexproc.c > CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.i
+
+CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_hexproc.c -o CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.s
+
 CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o: ../ft_intproc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_intproc.c
 
 CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.i: cmake_force
@@ -105,7 +131,7 @@ CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o: ../ft_longtoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_longtoa.c
 
 CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.i: cmake_force
@@ -118,7 +144,7 @@ CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o: ../ft_printchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printchar.c
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.i: cmake_force
@@ -131,7 +157,7 @@ CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o: ../ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.c
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.i: cmake_force
@@ -144,7 +170,7 @@ CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o: ../ft_printint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printint.c
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.i: cmake_force
@@ -157,7 +183,7 @@ CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o: ../ft_printstring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printstring.c
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.i: cmake_force
@@ -170,7 +196,7 @@ CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_atoi.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_atoi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_atoi.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_atoi.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_atoi.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_atoi.c.i: cmake_force
@@ -183,7 +209,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_atoi.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_bzero.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_bzero.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_bzero.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_bzero.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_bzero.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_bzero.c.i: cmake_force
@@ -196,7 +222,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_bzero.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_calloc.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_calloc.c.o: ../libft/ft_calloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_calloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_calloc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_calloc.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_calloc.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_calloc.c.i: cmake_force
@@ -209,7 +235,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_calloc.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isalnum.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isalnum.c.o: ../libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_isalnum.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_isalnum.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_isalnum.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_isalnum.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isalnum.c.i: cmake_force
@@ -222,7 +248,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_isalnum.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isalpha.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isalpha.c.o: ../libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_isalpha.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_isalpha.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_isalpha.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_isalpha.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isalpha.c.i: cmake_force
@@ -235,7 +261,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_isalpha.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isascii.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isascii.c.o: ../libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_isascii.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_isascii.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_isascii.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_isascii.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isascii.c.i: cmake_force
@@ -248,7 +274,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_isascii.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isdigit.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isdigit.c.o: ../libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_isdigit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_isdigit.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_isdigit.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_isdigit.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isdigit.c.i: cmake_force
@@ -261,7 +287,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_isdigit.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isprint.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isprint.c.o: ../libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_isprint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_isprint.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_isprint.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_isprint.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_isprint.c.i: cmake_force
@@ -274,7 +300,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_isprint.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_itoa.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_itoa.c.o: ../libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_itoa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_itoa.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_itoa.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_itoa.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_itoa.c.i: cmake_force
@@ -287,7 +313,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_itoa.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstadd_back.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstadd_back.c.o: ../libft/ft_lstadd_back.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstadd_back.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstadd_back.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstadd_back.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstadd_back.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstadd_back.c.i: cmake_force
@@ -300,7 +326,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstadd_back.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstadd_front.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstadd_front.c.o: ../libft/ft_lstadd_front.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstadd_front.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstadd_front.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstadd_front.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstadd_front.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstadd_front.c.i: cmake_force
@@ -313,7 +339,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstadd_front.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstclear.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstclear.c.o: ../libft/ft_lstclear.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstclear.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstclear.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstclear.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstclear.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstclear.c.i: cmake_force
@@ -326,7 +352,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstclear.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstdelone.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstdelone.c.o: ../libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstdelone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstdelone.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstdelone.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstdelone.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstdelone.c.i: cmake_force
@@ -339,7 +365,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstdelone.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstiter.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstiter.c.o: ../libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstiter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstiter.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstiter.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstiter.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstiter.c.i: cmake_force
@@ -352,7 +378,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstiter.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstlast.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstlast.c.o: ../libft/ft_lstlast.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstlast.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstlast.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstlast.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstlast.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstlast.c.i: cmake_force
@@ -365,7 +391,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstlast.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstmap.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstmap.c.o: ../libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstmap.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstmap.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstmap.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstmap.c.i: cmake_force
@@ -378,7 +404,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstmap.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstnew.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstnew.c.o: ../libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstnew.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstnew.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstnew.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstnew.c.i: cmake_force
@@ -391,7 +417,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstnew.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstsize.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstsize.c.o: ../libft/ft_lstsize.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstsize.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstsize.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstsize.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_lstsize.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstsize.c.i: cmake_force
@@ -404,7 +430,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_lstsize.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memccpy.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memccpy.c.o: ../libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_memccpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_memccpy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_memccpy.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_memccpy.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memccpy.c.i: cmake_force
@@ -417,7 +443,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_memccpy.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memchr.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memchr.c.o: ../libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_memchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_memchr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_memchr.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_memchr.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memchr.c.i: cmake_force
@@ -430,7 +456,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_memchr.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memcmp.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memcmp.c.o: ../libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_memcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_memcmp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_memcmp.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_memcmp.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memcmp.c.i: cmake_force
@@ -443,7 +469,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_memcmp.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memcpy.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memcpy.c.o: ../libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_memcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_memcpy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_memcpy.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_memcpy.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memcpy.c.i: cmake_force
@@ -456,7 +482,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_memcpy.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memmove.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memmove.c.o: ../libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_memmove.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_memmove.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_memmove.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_memmove.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memmove.c.i: cmake_force
@@ -469,7 +495,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_memmove.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memset.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memset.c.o: ../libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_memset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_memset.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_memset.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_memset.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_memset.c.i: cmake_force
@@ -482,7 +508,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_memset.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_putchar_fd.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_putchar_fd.c.o: ../libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_putchar_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_putchar_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_putchar_fd.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_putchar_fd.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_putchar_fd.c.i: cmake_force
@@ -495,7 +521,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_putchar_fd.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_putendl_fd.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_putendl_fd.c.o: ../libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_putendl_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_putendl_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_putendl_fd.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_putendl_fd.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_putendl_fd.c.i: cmake_force
@@ -508,7 +534,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_putendl_fd.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_putnbr_fd.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_putnbr_fd.c.o: ../libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_putnbr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_putnbr_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_putnbr_fd.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_putnbr_fd.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_putnbr_fd.c.i: cmake_force
@@ -521,7 +547,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_putnbr_fd.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_putstr_fd.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_putstr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_putstr_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_putstr_fd.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_putstr_fd.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_putstr_fd.c.i: cmake_force
@@ -534,7 +560,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_putstr_fd.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_split.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_split.c.o: ../libft/ft_split.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_split.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_split.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_split.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_split.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_split.c.i: cmake_force
@@ -547,7 +573,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_split.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strchr.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strchr.c.o: ../libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strchr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_strchr.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strchr.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strchr.c.i: cmake_force
@@ -560,7 +586,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_strchr.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strdup.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strdup.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_strdup.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strdup.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strdup.c.i: cmake_force
@@ -573,7 +599,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_strdup.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strjoin.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strjoin.c.o: ../libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strjoin.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_strjoin.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strjoin.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strjoin.c.i: cmake_force
@@ -586,7 +612,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_strjoin.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlcat.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlcat.c.o: ../libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlcat.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlcat.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strlcat.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlcat.c.i: cmake_force
@@ -599,7 +625,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlcat.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlcpy.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlcpy.c.o: ../libft/ft_strlcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlcpy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlcpy.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strlcpy.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlcpy.c.i: cmake_force
@@ -612,7 +638,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlcpy.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlen.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlen.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlen.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strlen.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlen.c.i: cmake_force
@@ -625,7 +651,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_strlen.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strmapi.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strmapi.c.o: ../libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strmapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strmapi.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_strmapi.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strmapi.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strmapi.c.i: cmake_force
@@ -638,7 +664,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_strmapi.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strncmp.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strncmp.c.o: ../libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strncmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strncmp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_strncmp.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strncmp.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strncmp.c.i: cmake_force
@@ -651,7 +677,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_strncmp.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strnstr.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strnstr.c.o: ../libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strnstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strnstr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_strnstr.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strnstr.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strnstr.c.i: cmake_force
@@ -664,7 +690,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_strnstr.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strrchr.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strrchr.c.o: ../libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strrchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strrchr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_strrchr.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strrchr.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strrchr.c.i: cmake_force
@@ -677,7 +703,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_strrchr.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strtrim.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strtrim.c.o: ../libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strtrim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_strtrim.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_strtrim.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_strtrim.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_strtrim.c.i: cmake_force
@@ -690,7 +716,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_strtrim.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_substr.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_substr.c.o: ../libft/ft_substr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_substr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_substr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_substr.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_substr.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_substr.c.i: cmake_force
@@ -703,7 +729,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_substr.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_tolower.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_tolower.c.o: ../libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_tolower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_tolower.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_tolower.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_tolower.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_tolower.c.i: cmake_force
@@ -716,7 +742,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_tolower.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_toupper.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_toupper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/lvl2_ft_printf.dir/libft/ft_toupper.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/libft/ft_toupper.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/ft_toupper.c
 
 CMakeFiles/lvl2_ft_printf.dir/libft/ft_toupper.c.i: cmake_force
@@ -729,7 +755,7 @@ CMakeFiles/lvl2_ft_printf.dir/libft/ft_toupper.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/main.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/lvl2_ft_printf.dir/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/lvl2_ft_printf.dir/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/main.c.o   -c /home/nykanaka/CLionProjects/lvl2_ft_printf/main.c
 
 CMakeFiles/lvl2_ft_printf.dir/main.c.i: cmake_force
@@ -743,6 +769,8 @@ CMakeFiles/lvl2_ft_printf.dir/main.c.s: cmake_force
 # Object files for target lvl2_ft_printf
 lvl2_ft_printf_OBJECTS = \
 "CMakeFiles/lvl2_ft_printf.dir/ft_check.c.o" \
+"CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.o" \
+"CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.o" \
 "CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o" \
 "CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o" \
 "CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o" \
@@ -798,6 +826,8 @@ lvl2_ft_printf_OBJECTS = \
 lvl2_ft_printf_EXTERNAL_OBJECTS =
 
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_check.c.o
+lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.o
+lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.o
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o
@@ -850,7 +880,7 @@ lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/libft/ft_toupper.c.o
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/main.c.o
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/build.make
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking C executable lvl2_ft_printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Linking C executable lvl2_ft_printf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lvl2_ft_printf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

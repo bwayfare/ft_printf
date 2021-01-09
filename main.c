@@ -125,5 +125,7 @@ int main()
 	unsigned int utemp = 3147483690;
 	ft_printf("Proverka unsigned int = %15.70u\n", utemp);
 	printf("Proverka unsigned int = %15.70u\n", utemp);
+	printf("%d\n", ft_printf("Proverka hex = %-90.70X\n", 15));
+	printf("%d\n", printf("Proverka hex = %-90.70X\n", 15));
 	return 0;
 }

@@ -1,6 +1,6 @@
 #include "ft_printf.h"
 
-int		ft_longgetsize(int n)
+int		ft_longgetsize(long int n)
 {
 	int	size;
 
@@ -41,7 +41,7 @@ char	*ft_longtoa(long int number)
 	long int 	n;
 
 	n = number;
-	size = ft_getsize(number);
+	size = ft_longgetsize(number);
 	if (n == 0)
 		size = 1;
 	if (n < 0)

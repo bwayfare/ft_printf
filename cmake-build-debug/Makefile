@@ -170,6 +170,60 @@ ft_check.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_check.c.s
 .PHONY : ft_check.c.s
 
+ft_hexprint.o: ft_hexprint.c.o
+
+.PHONY : ft_hexprint.o
+
+# target to build an object file
+ft_hexprint.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.o
+.PHONY : ft_hexprint.c.o
+
+ft_hexprint.i: ft_hexprint.c.i
+
+.PHONY : ft_hexprint.i
+
+# target to preprocess a source file
+ft_hexprint.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.i
+.PHONY : ft_hexprint.c.i
+
+ft_hexprint.s: ft_hexprint.c.s
+
+.PHONY : ft_hexprint.s
+
+# target to generate assembly for a file
+ft_hexprint.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.s
+.PHONY : ft_hexprint.c.s
+
+ft_hexproc.o: ft_hexproc.c.o
+
+.PHONY : ft_hexproc.o
+
+# target to build an object file
+ft_hexproc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.o
+.PHONY : ft_hexproc.c.o
+
+ft_hexproc.i: ft_hexproc.c.i
+
+.PHONY : ft_hexproc.i
+
+# target to preprocess a source file
+ft_hexproc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.i
+.PHONY : ft_hexproc.c.i
+
+ft_hexproc.s: ft_hexproc.c.s
+
+.PHONY : ft_hexproc.s
+
+# target to generate assembly for a file
+ft_hexproc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.s
+.PHONY : ft_hexproc.c.s
+
 ft_intproc.o: ft_intproc.c.o
 
 .PHONY : ft_intproc.o
@@ -1532,6 +1586,12 @@ help:
 	@echo "... ft_check.o"
 	@echo "... ft_check.i"
 	@echo "... ft_check.s"
+	@echo "... ft_hexprint.o"
+	@echo "... ft_hexprint.i"
+	@echo "... ft_hexprint.s"
+	@echo "... ft_hexproc.o"
+	@echo "... ft_hexproc.i"
+	@echo "... ft_hexproc.s"
 	@echo "... ft_intproc.o"
 	@echo "... ft_intproc.i"
 	@echo "... ft_intproc.s"

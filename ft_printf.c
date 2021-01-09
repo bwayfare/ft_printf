@@ -30,7 +30,7 @@ int    ft_proc(va_list *arg, char *str, p_list *list)
 int        ft_prin(va_list *arg, char *str, p_list *list)
 {
 	if (*str == 's')
-		return (ft_printstring(list, *arg));
+		return (ft_printstring(list, va_arg(*arg, char *)));
 	if (*str == 'c')
 		return (ft_printchar(list, *arg));
 	if (*str == '%')
@@ -41,9 +41,11 @@ int        ft_prin(va_list *arg, char *str, p_list *list)
 	if (*str == 'd' || *str == 'i')
 		return (ft_printint(ft_itoa(va_arg(*arg, int)), list, 0, 0));
 	if (*str == 'u')
-	{
 		return (ft_uintcheck(va_arg(*arg, unsigned int), list));
-	}
+	if (*str == 'X')
+		return (ft_hexproc(list, va_arg(*arg, long int), 1));
+	if (*str == 'x')
+		return (ft_hexproc(list, va_arg(*arg, long int), 0));
 	return (1);
 }
 

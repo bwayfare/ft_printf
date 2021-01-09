@@ -5,6 +5,14 @@ CMakeFiles/lvl2_ft_printf.dir/ft_check.c.o
  /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_check.c
  /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
  /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/libft.h
+CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.o
+ /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_hexprint.c
+ /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
+ /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/libft.h
+CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.o
+ /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_hexproc.c
+ /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
+ /home/nykanaka/CLionProjects/lvl2_ft_printf/libft/libft.h
 CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o
  /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_intproc.c
  /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h

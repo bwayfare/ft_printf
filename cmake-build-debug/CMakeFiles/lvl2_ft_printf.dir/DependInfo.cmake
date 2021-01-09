@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_check.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_check.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_hexprint.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_hexproc.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.o"
   "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_intproc.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o"
   "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_longtoa.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o"
   "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printchar.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o"
