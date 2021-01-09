@@ -6,7 +6,7 @@
 /*   By: bwayfare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/09 19:37:35 by bwayfare          #+#    #+#             */
-/*   Updated: 2021/01/09 19:37:36 by bwayfare         ###   ########.fr       */
+/*   Updated: 2021/01/09 19:41:29 by bwayfare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,6 @@ int		ft_printtype(char *str, va_list *arg, t_list *list)
 		return (ft_hexproc(list, va_arg(*arg, long int), 1));
 	if (*str == 'x')
 		return (ft_hexproc(list, va_arg(*arg, long int), 0));
-	if (*str == 'p')
+	else
 		return (ft_hexproc(list, va_arg(*arg, unsigned long), 2));
 }

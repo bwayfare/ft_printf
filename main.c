@@ -130,5 +130,7 @@ int main()
 	unsigned int uutemp = 3147483690;
 	printf("%d\n", ft_printf("Proverka p = %25p\n", &uutemp));
 	printf("%d\n", printf("Proverka p = %25p\n", &uutemp));
+	while (1)
+		;
 	return 0;
 }
