@@ -1,8 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printtype.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bwayfare <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/01/09 19:37:35 by bwayfare          #+#    #+#             */
+/*   Updated: 2021/01/09 19:37:36 by bwayfare         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
 int		ft_printtype(char *str, va_list *arg, t_list *list)
 {
-	char *tstr;
+	char	*tstr;
 
 	if (*str == 's')
 		return (ft_printstring(list, va_arg(*arg, char *)));

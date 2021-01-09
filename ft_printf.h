@@ -6,7 +6,7 @@
 /*   By: bwayfare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/09 18:50:16 by bwayfare          #+#    #+#             */
-/*   Updated: 2021/01/09 18:52:33 by bwayfare         ###   ########.fr       */
+/*   Updated: 2021/01/09 19:38:40 by bwayfare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <unistd.h>
 # include <stdarg.h>
 
-typedef struct		print_list
+typedef struct		s_print_list
 {
 	int				width;
 	int				pon;

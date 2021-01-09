@@ -6,13 +6,13 @@
 /*   By: bwayfare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/09 18:53:45 by bwayfare          #+#    #+#             */
-/*   Updated: 2021/01/09 18:53:46 by bwayfare         ###   ########.fr       */
+/*   Updated: 2021/01/09 19:39:20 by bwayfare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void 		ft_intzappoz(char *tstr, t_list *list, int *i, int *j)
+void	ft_intzappoz(char *tstr, t_list *list, int *i, int *j)
 {
 	int iter;
 
@@ -39,7 +39,7 @@ void 		ft_intzappoz(char *tstr, t_list *list, int *i, int *j)
 	*j -= 2;
 }
 
-void 		ft_intzap(char *tstr, t_list *list, int *i, int *j)
+void	ft_intzap(char *tstr, t_list *list, int *i, int *j)
 {
 	int iter;
 
@@ -65,7 +65,7 @@ void 		ft_intzap(char *tstr, t_list *list, int *i, int *j)
 	*j -= 2;
 }
 
-void 		ft_intpoz(char *tstr, t_list *list, int *i, int *j)
+void	ft_intpoz(char *tstr, t_list *list, int *i, int *j)
 {
 	int iter;
 
@@ -93,7 +93,7 @@ void 		ft_intpoz(char *tstr, t_list *list, int *i, int *j)
 	*j -= 2;
 }
 
-void 		ft_intpozelse(char *tstr, t_list *list, int *i, int *j)
+void	ft_intpozelse(char *tstr, t_list *list, int *i, int *j)
 {
 	int iter;
 
@@ -119,7 +119,7 @@ void 		ft_intpozelse(char *tstr, t_list *list, int *i, int *j)
 	*j -= 2;
 }
 
-void 		ft_intdef(char *tstr, t_list *list, int *i, int *j)
+void	ft_intdef(char *tstr, t_list *list, int *i, int *j)
 {
 	int iter;
 

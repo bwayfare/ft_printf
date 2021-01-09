@@ -6,7 +6,7 @@
 /*   By: bwayfare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/09 18:34:40 by bwayfare          #+#    #+#             */
-/*   Updated: 2021/01/09 18:40:00 by bwayfare         ###   ########.fr       */
+/*   Updated: 2021/01/09 19:36:57 by bwayfare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,8 @@ int		ft_printint(char *tstr, t_list *list, int i, int j)
 					ft_intzappoz(tstr, list, &i, &j);
 				else
 					ft_intzap(tstr, list, &i, &j);
-			} else
+			}
+			else
 			{
 				if (list->poz == 1)
 					ft_intpoz(tstr, list, &i, &j);
