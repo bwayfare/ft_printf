@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o"
   "CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o"
   "CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o"
+  "CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.o"
   "CMakeFiles/lvl2_ft_printf.dir/ft_strlen.c.o"
   "CMakeFiles/lvl2_ft_printf.dir/main.c.o"
   "lvl2_ft_printf"

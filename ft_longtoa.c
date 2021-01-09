@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_longtoa.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bwayfare <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/01/09 18:41:05 by bwayfare          #+#    #+#             */
+/*   Updated: 2021/01/09 18:41:06 by bwayfare         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
 int		ft_longgetsize(long int n)
@@ -38,7 +50,7 @@ char	*ft_longtoa(long int number)
 {
 	int			size;
 	char		*res;
-	long int 	n;
+	long int	n;
 
 	n = number;
 	size = ft_longgetsize(number);

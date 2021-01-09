@@ -1,9 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printstring.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bwayfare <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/01/09 18:54:57 by bwayfare          #+#    #+#             */
+/*   Updated: 2021/01/09 18:54:59 by bwayfare         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
-int 	ft_printstring(p_list *list, char *str)
+int		ft_printstring(t_list *list, char *str)
 {
-	int 		len;
-	int 		i;
+	int		len;
+	int		i;
 
 	i = 0;
 	len = ft_strlen(str);

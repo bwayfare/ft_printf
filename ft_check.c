@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_check.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bwayfare <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/01/09 18:28:59 by bwayfare          #+#    #+#             */
+/*   Updated: 2021/01/09 18:30:19 by bwayfare         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
 int			ft_goch(char *str, char *ch)
@@ -23,9 +35,9 @@ int			ft_goch(char *str, char *ch)
 	return (j);
 }
 
-int 		ft_singltype(char ch, char *set)
+int			ft_singltype(char ch, char *set)
 {
-	while(*set != '\0')
+	while (*set != '\0')
 	{
 		if (ch == *set)
 			return (1);
@@ -34,7 +46,7 @@ int 		ft_singltype(char ch, char *set)
 	return (0);
 }
 
-int			ft_checkflag(char ch, p_list *list)
+int			ft_checkflag(char ch, t_list *list)
 {
 	if ((ch == ' ' || ch == '0') && list->flag == 0)
 	{
@@ -59,7 +71,7 @@ int			ft_checkflag(char ch, p_list *list)
 	return (0);
 }
 
-int	 ft_checkwidth(va_list *arg, char *str, p_list *list)
+int			ft_checkwidth(va_list *arg, char *str, t_list *list)
 {
 	char	*head;
 
@@ -77,7 +89,7 @@ int	 ft_checkwidth(va_list *arg, char *str, p_list *list)
 	return ((int)(str - head));
 }
 
-int	ft_checkpon(va_list *arg, char *str, p_list *list, char *head)
+int			ft_checkpon(va_list *arg, char *str, t_list *list, char *head)
 {
 	if (*str >= '0' && *str <= '9')
 		list->pon = ft_atoi(str);

@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_hexprint.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bwayfare <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/01/09 18:31:12 by bwayfare          #+#    #+#             */
+/*   Updated: 2021/01/09 18:31:38 by bwayfare         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
-void 	ft_hexwidthpon(p_list *list, int len)
+void	ft_hexwidthpon(t_list *list, int len)
 {
 	if (list->width < list->pon)
 	{
@@ -19,7 +31,7 @@ void 	ft_hexwidthpon(p_list *list, int len)
 	}
 }
 
-void 	ft_hexprint(p_list *list, char *str)
+void	ft_hexprint(t_list *list, char *str)
 {
 	int i;
 	int j;

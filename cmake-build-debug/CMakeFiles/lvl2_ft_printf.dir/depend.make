@@ -40,6 +40,9 @@ CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o: ../ft_printint.c
 CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o: ../ft_printf.h
 CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o: ../ft_printstring.c
 
+CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.o: ../ft_printf.h
+CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.o: ../ft_printtype.c
+
 CMakeFiles/lvl2_ft_printf.dir/ft_strlen.c.o: ../ft_printf.h
 CMakeFiles/lvl2_ft_printf.dir/ft_strlen.c.o: ../ft_strlen.c
 

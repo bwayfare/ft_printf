@@ -494,6 +494,33 @@ ft_printstring.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.s
 .PHONY : ft_printstring.c.s
 
+ft_printtype.o: ft_printtype.c.o
+
+.PHONY : ft_printtype.o
+
+# target to build an object file
+ft_printtype.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.o
+.PHONY : ft_printtype.c.o
+
+ft_printtype.i: ft_printtype.c.i
+
+.PHONY : ft_printtype.i
+
+# target to preprocess a source file
+ft_printtype.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.i
+.PHONY : ft_printtype.c.i
+
+ft_printtype.s: ft_printtype.c.s
+
+.PHONY : ft_printtype.s
+
+# target to generate assembly for a file
+ft_printtype.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.s
+.PHONY : ft_printtype.c.s
+
 ft_strlen.o: ft_strlen.c.o
 
 .PHONY : ft_strlen.o
@@ -596,6 +623,9 @@ help:
 	@echo "... ft_printstring.o"
 	@echo "... ft_printstring.i"
 	@echo "... ft_printstring.s"
+	@echo "... ft_printtype.o"
+	@echo "... ft_printtype.i"
+	@echo "... ft_printtype.s"
 	@echo "... ft_strlen.o"
 	@echo "... ft_strlen.i"
 	@echo "... ft_strlen.s"

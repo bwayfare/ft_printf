@@ -1,13 +1,25 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_intproc.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bwayfare <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/01/09 18:34:40 by bwayfare          #+#    #+#             */
+/*   Updated: 2021/01/09 18:40:00 by bwayfare         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
-void		ft_checkponwidth(p_list *list, int len, char *tstr, int *i)
+void	ft_checkponwidth(t_list *list, int len, char *tstr, int *i)
 {
 	if (list->pon == 0 && tstr[0] == '0')
 	{
 		list->flag = 5;
 		*i -= 2;
 	}
-	if (tstr[0] == '-'|| list->poz == 1)
+	if (tstr[0] == '-' || list->poz == 1)
 	{
 		if (list->pon >= list->width || list->pon > len)
 			list->pon++;
@@ -29,7 +41,7 @@ void		ft_checkponwidth(p_list *list, int len, char *tstr, int *i)
 	}
 }
 
-int 		ft_uintcheck(long int temp, p_list *list)
+int		ft_uintcheck(long int temp, t_list *list)
 {
 	if (temp < 0)
 		return (0);
@@ -37,12 +49,9 @@ int 		ft_uintcheck(long int temp, p_list *list)
 		return (ft_printint(ft_longtoa(temp), list, 0, 0));
 }
 
-int 		ft_printint(char *tstr, p_list *list, int i, int j)
+int		ft_printint(char *tstr, t_list *list, int i, int j)
 {
-	int		len;
-
-	len = ft_strlen(tstr);
-	ft_checkponwidth(list, len, tstr, &i);
+	ft_checkponwidth(list, ft_strlen(tstr), tstr, &i);
 	if (list->flag != 5)
 	{
 		if (list->def == 0)
@@ -50,19 +59,22 @@ int 		ft_printint(char *tstr, p_list *list, int i, int j)
 			if (list->zap == '0')
 			{
 				if (list->poz == 1)
-					ft_intzappoz(tstr, len, list, &i, &j);
+					ft_intzappoz(tstr, list, &i, &j);
 				else
-					ft_intzap(tstr, len, list, &i, &j);
-			} else
+					ft_intzap(tstr, list, &i, &j);
+			}
+			else
 			{
 				if (list->poz == 1)
-					ft_intpoz(tstr, len, list, &i, &j);
+					ft_intpoz(tstr, list, &i, &j);
 				else
-					ft_intpozelse(tstr, len, list, &i, &j);
+					ft_intpozelse(tstr, list, &i, &j);
 			}
-		} else
-			ft_intdef(tstr, len, list, &i, &j);
+		}
+		else
+			ft_intdef(tstr, list, &i, &j);
 	}
+	list->flag = (int)ft_strlen(tstr);
 	free(tstr);
-	return (i + j + len);
+	return (i + j + list->flag);
 }

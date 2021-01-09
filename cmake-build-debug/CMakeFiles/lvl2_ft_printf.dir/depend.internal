@@ -40,6 +40,9 @@ CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o
 CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o
  /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
  /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printstring.c
+CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.o
+ /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
+ /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printtype.c
 CMakeFiles/lvl2_ft_printf.dir/ft_strlen.c.o
  /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
  /home/nykanaka/CLionProjects/lvl2_ft_printf/ft_strlen.c

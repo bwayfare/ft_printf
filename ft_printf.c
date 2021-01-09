@@ -1,8 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bwayfare <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/01/09 18:43:01 by bwayfare          #+#    #+#             */
+/*   Updated: 2021/01/09 18:47:37 by bwayfare         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
-int    ft_proc(va_list *arg, char *str, p_list *list)
+int		ft_proc(va_list *arg, char *str, t_list *list)
 {
-	char *head = str;
+	char *head;
+
+	head = str;
 	while (*str)
 	{
 		if (ft_singltype(*str, "pduicsxX\0"))
@@ -27,36 +41,24 @@ int    ft_proc(va_list *arg, char *str, p_list *list)
 	return ((int)(str - head));
 }
 
-int        ft_prin(va_list *arg, char *str, p_list *list, int flag)
+int		ft_prin(va_list *arg, char *str, t_list *list, int flag)
 {
 	if (flag == 0)
 	{
 		write(1, str, 1);
 		return (1);
 	}
-	if (*str == 's')
-		return (ft_printstring(list, va_arg(*arg, char *)));
-	if (*str == 'c')
-		return (ft_printchar(list, *arg));
 	if (*str == '%')
 	{
 		write(1, "%", 1);
 		return (-2);
 	}
-	if (*str == 'd' || *str == 'i')
-		return (ft_printint(ft_itoa(va_arg(*arg, int)), list, 0, 0));
-	if (*str == 'u')
-		return (ft_uintcheck(va_arg(*arg, unsigned int), list));
-	if (*str == 'X')
-		return (ft_hexproc(list, va_arg(*arg, long int), 1));
-	if (*str == 'x')
-		return (ft_hexproc(list, va_arg(*arg, long int), 0));
-	if (*str == 'p')
-		return (ft_hexproc(list, va_arg(*arg, unsigned long), 2));
+	if (ft_singltype(*str, "pduicsxX\0"))
+		return (ft_printtype(str, arg, list));
 	return (1);
 }
 
-void 		ft_initlist(p_list *list)
+void	ft_initlist(t_list *list)
 {
 	list->def = 0;
 	list->zap = 0;
@@ -67,7 +69,7 @@ void 		ft_initlist(p_list *list)
 	list->flag = 0;
 }
 
-int 	ft_start(va_list *arg, p_list *list, int step, char *str)
+int		ft_start(va_list *arg, t_list *list, int step, char *str)
 {
 	while (*str)
 	{
@@ -86,7 +88,6 @@ int 	ft_start(va_list *arg, p_list *list, int step, char *str)
 					list->len = -1;
 					return (-1);
 				}
-				continue;
 			}
 			else
 				str++;
@@ -97,15 +98,16 @@ int 	ft_start(va_list *arg, p_list *list, int step, char *str)
 	return (1);
 }
 
-int    ft_printf(char *str, ...)
+int		ft_printf(char *str, ...)
 {
-	p_list 		list;
+	t_list		list;
+	va_list		arg;
 
 	list.len = 0;
 	if (!str)
 		return (0);
-	va_list arg;
 	va_start(arg, str);
 	ft_start(&arg, &list, 0, str);
+	va_end(arg);
 	return (list.len);
 }

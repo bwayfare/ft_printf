@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_hexproc.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bwayfare <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/01/09 18:32:45 by bwayfare          #+#    #+#             */
+/*   Updated: 2021/01/09 18:33:23 by bwayfare         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
-void 	ft_revhex(char *str)
+void	ft_revhex(char *str)
 {
 	char temp;
 	char *end;
@@ -19,8 +31,7 @@ void 	ft_revhex(char *str)
 	}
 }
 
-
-char 	ft_getlowhex(long int tint)
+char	ft_getlowhex(long int tint)
 {
 	if (tint == 10)
 		return ('a');
@@ -36,7 +47,7 @@ char 	ft_getlowhex(long int tint)
 		return ('f');
 }
 
-char 	ft_getuphex(long int tint)
+char	ft_getuphex(long int tint)
 {
 	if (tint == 10)
 		return ('A');
@@ -52,7 +63,7 @@ char 	ft_getuphex(long int tint)
 		return ('F');
 }
 
-void 	ft_gethex(long int temp, char *tstr, int flag)
+void	ft_gethex(long int temp, char *tstr, int flag)
 {
 	long int tint;
 
@@ -60,7 +71,7 @@ void 	ft_gethex(long int temp, char *tstr, int flag)
 	while (temp > 0)
 	{
 		tint = temp % 16;
-		if (tint >= 10 && tint <=15)
+		if (tint >= 10 && tint <= 15)
 		{
 			if (flag == 1)
 				*tstr++ = ft_getuphex(tint);
@@ -79,15 +90,15 @@ void 	ft_gethex(long int temp, char *tstr, int flag)
 	*tstr = '\0';
 }
 
-int		ft_hexproc(p_list *list, long int temp, int flag)
+int		ft_hexproc(t_list *list, long int temp, int flag)
 {
-	char 		*tstr;
-	char 		*head;
-	int 		len;
+	char	*tstr;
+	char	*head;
+	int		len;
 
 	if (flag == 2)
 		if (list->pon != -1)
-			return  (-1);
+			return (-1);
 	tstr = ft_calloc(100, 1);
 	head = tstr;
 	ft_gethex(temp, tstr, flag);
