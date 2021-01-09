@@ -39,9 +39,9 @@ int main()
 	char k = 'H';
 	ft_printf("%c", k);
 	ft_printf("135416531\n\n");
-
-	printf("%d\n", ft_printf("01 = %d\n", 153));
-	printf("%d\n\n", printf("02 = %d\n", 153));
+	int iint = 153;
+	printf("%d\n", ft_printf("01 = %i\n", iint));
+	printf("%d\n\n", printf("02 = %i\n", iint));
 	printf("%d\n", ft_printf("03 = %+d\n", -153));
 	printf("%d\n\n", printf("04 = %+d\n", -153));
 	printf("%d\n", ft_printf("05 = %+d\n", 153));
@@ -125,7 +125,10 @@ int main()
 	unsigned int utemp = 3147483690;
 	ft_printf("Proverka unsigned int = %15.70u\n", utemp);
 	printf("Proverka unsigned int = %15.70u\n", utemp);
-	printf("%d\n", ft_printf("Proverka hex = %-90.70X\n", 15));
-	printf("%d\n", printf("Proverka hex = %-90.70X\n", 15));
+	printf("%d\n", ft_printf("Proverka hex = %90X\n", 15));
+	printf("%d\n", printf("Proverka hex = %90X\n", 15));
+	unsigned int uutemp = 3147483690;
+	printf("%d\n", ft_printf("Proverka p = %25p\n", &uutemp));
+	printf("%d\n", printf("Proverka p = %25p\n", &uutemp));
 	return 0;
 }

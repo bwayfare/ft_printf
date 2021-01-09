@@ -68,7 +68,7 @@ int	 ft_checkwidth(va_list *arg, char *str, p_list *list)
 		list->width = ft_atoi(str);
 	else if (*str == '*' && list->flag == 0)
 		list->width = va_arg(*arg, int);
-	str += ft_goch(str, ".ducsxX\0");
+	str += ft_goch(str, ".pducisxX\0");
 	if (list->width < 0)
 	{
 		list->width *= -1;
@@ -85,6 +85,6 @@ int	ft_checkpon(va_list *arg, char *str, p_list *list, char *head)
 		list->pon = va_arg(*arg, int);
 	if (list->pon < 0)
 		list->pon = -1;
-	str += ft_goch(str, "ducsxX\0");
+	str += ft_goch(str, "pducisxX\0");
 	return ((int)(str - head));
 }

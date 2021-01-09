@@ -5,7 +5,7 @@ int    ft_proc(va_list *arg, char *str, p_list *list)
 	char *head = str;
 	while (*str)
 	{
-		if (ft_singltype(*str, "ducsxX\0"))
+		if (ft_singltype(*str, "pduicsxX\0"))
 			return ((int)(str - head));
 		if (*str == '.')
 		{
@@ -13,11 +13,11 @@ int    ft_proc(va_list *arg, char *str, p_list *list)
 			str++;
 			if ((*str >= '0' && *str <= '9') || *str == '*')
 				return (ft_checkpon(arg, str, list, head));
-			else if (ft_singltype(*str, "ducsxX\0"))
-				{
-					list->pon = 0;
-					return ((int)(str - head));
-				}
+			else if (ft_singltype(*str, "pduicsxX\0"))
+			{
+				list->pon = 0;
+				return ((int)(str - head));
+			}
 		}
 		if (ft_checkflag(*str, list))
 			str++;
@@ -27,8 +27,13 @@ int    ft_proc(va_list *arg, char *str, p_list *list)
 	return ((int)(str - head));
 }
 
-int        ft_prin(va_list *arg, char *str, p_list *list)
+int        ft_prin(va_list *arg, char *str, p_list *list, int flag)
 {
+	if (flag == 0)
+	{
+		write(1, str, 1);
+		return (1);
+	}
 	if (*str == 's')
 		return (ft_printstring(list, va_arg(*arg, char *)));
 	if (*str == 'c')
@@ -46,6 +51,8 @@ int        ft_prin(va_list *arg, char *str, p_list *list)
 		return (ft_hexproc(list, va_arg(*arg, long int), 1));
 	if (*str == 'x')
 		return (ft_hexproc(list, va_arg(*arg, long int), 0));
+	if (*str == 'p')
+		return (ft_hexproc(list, va_arg(*arg, unsigned long), 2));
 	return (1);
 }
 
@@ -62,7 +69,6 @@ void 		ft_initlist(p_list *list)
 
 int 	ft_start(va_list *arg, p_list *list, int step, char *str)
 {
-	list->len = 0;
 	while (*str)
 	{
 		if (*str == '%')
@@ -71,20 +77,22 @@ int 	ft_start(va_list *arg, p_list *list, int step, char *str)
 			{
 				ft_initlist(list);
 				step = ft_proc(arg, ++str, list);
-				if (step == -1)
-					return (-1);
 				str += step;
-				step = ft_prin(arg, str++, list);
+				step = ft_prin(arg, str++, list, 1);
 				if (step != -1)
 					list->len += step;
+				else
+				{
+					list->len = -1;
+					return (-1);
+				}
 				continue;
 			}
 			else
 				str++;
 		}
-		write(1, str, 1);
 		list->len++;
-		str++;
+		ft_prin(arg, str++, list, 0);
 	}
 	return (1);
 }
@@ -93,6 +101,7 @@ int    ft_printf(char *str, ...)
 {
 	p_list 		list;
 
+	list.len = 0;
 	if (!str)
 		return (0);
 	va_list arg;

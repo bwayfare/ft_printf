@@ -71,6 +71,11 @@ void 	ft_gethex(long int temp, char *tstr, int flag)
 			*tstr++ = (char)(tint + '0');
 		temp /= 16;
 	}
+	if (flag == 2)
+	{
+		*tstr++ = 'x';
+		*tstr++ = '0';
+	}
 	*tstr = '\0';
 }
 
@@ -80,11 +85,14 @@ int		ft_hexproc(p_list *list, long int temp, int flag)
 	char 		*head;
 	int 		len;
 
+	if (flag == 2)
+		if (list->pon != -1)
+			return  (-1);
 	tstr = ft_calloc(100, 1);
 	head = tstr;
 	ft_gethex(temp, tstr, flag);
 	ft_revhex(head);
-	len = (int)(tstr - head);
+	len = (int)ft_strlen(head);
 	ft_hexwidthpon(list, len);
 	ft_hexprint(list, head);
 	free(tstr);

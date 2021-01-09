@@ -15,7 +15,7 @@
 const char		*ft_gofast(const char *str)
 {
 	while (*str && (*str == ' ' || *str == '\n' || *str == '\t' ||
-		*str == '\v' || *str == '\f' || *str == '\r'))
+					*str == '\v' || *str == '\f' || *str == '\r'))
 		str++;
 	return (str);
 }

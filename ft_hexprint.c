@@ -15,7 +15,7 @@ void 	ft_hexwidthpon(p_list *list, int len)
 	else
 	{
 		list->pon = 0;
-		list->width -= len + 1;
+		list->width -= len;
 	}
 }
 
