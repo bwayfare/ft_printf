@@ -7,7 +7,7 @@ int main()
 		ft_printf("%-60.3s %5.*s Hello, %-+015.16dWorld!\n", "aaaa\0",-16, "bbbb\0", 15));
 	printf("%d%d\n\n", 1, 2);
 	printf("%-13.20s", "Hello\n\n\n");*/
-	/*char  *u = "proverochka";
+/*	char  *u = "proverochka";
 //  int j = -1;
 //    printf("\n%d %d\n", i, j);
 	char  *ch = "nu eto finalnaya proverochka\0";
@@ -33,7 +33,6 @@ int main()
 	printf("!20__%.*s___!\n\n", -12, u);
 	printf("Длина 21 строки = %d\n\n", ft_printf("%s%s\n", "Hello,\0", " world!\0"));
 	printf("Длина 22 строки = %d\n\n", printf("%s%s\n", "Hello,\0", " world!\0"));
-*/
 	printf("%d\n" ,ft_printf("\nmoy %5%-*c\n"));
 	printf("%d\n" ,printf("\nsys %5%-*c\n"));
 	printf("%d\n" ,ft_printf("\nmoy %%-*c\n"));
@@ -49,7 +48,6 @@ int main()
 	printf("\n%d\n", printf(">------------<%28c>------------<\n", k));
 	ft_printf("135416531\n\n");
 
-	/*
 	int iint = 153;
 	printf("%d\n", ft_printf("01 = %i\n", iint));
 	printf("%d\n\n", printf("02 = %i\n", iint));
@@ -133,13 +131,14 @@ int main()
 	i = ft_printf("!___25 MY + = %*.*d___!\n   !___MY - = %*.*d___!\n", -25, -15, hui, -25, -15, dvahuya);
 	j = printf("!___26 NO + = %*.*d___!\n   !___NO - = %*.*d___!\n", -25, -15, hui, -25, -15, dvahuya);
 	printf("					мой = %ld, системный = %d\n\n", i, j);*/
-	unsigned int utemp = 3147483690;
-	/*ft_printf("Proverka unsigned int = %15.70u\n", utemp);
+//	ft_printf("hello, %s.", NULL);
+	/*unsigned int utemp = 4147483690;
+	ft_printf("Proverka unsigned int = %15.70u\n", utemp);
 	printf("Proverka unsigned int = %15.70u\n", utemp);*/
-	printf("%d\n", ft_printf("Proverka hex = %.5X\n", 21));
-	printf("%d\n", printf("Proverka hex = %.5X\n", 21));
-	unsigned int uutemp = 3147483690;
-	printf("%d\n", ft_printf("Proverka p = %25p\n", &uutemp));
-	printf("%d\n", printf("Proverka p = %25p\n", &uutemp));
+	printf("%d\n", ft_printf("Proverka hex = %5.60X\n", 314));
+	printf("%d\n", printf("Proverka hex = %5.60X\n", 314));
+	unsigned int uutemp = 314;
+	printf("%d\n", ft_printf("Proverka p = %25p\n", NULL));
+	printf("%d\n", printf("Proverka p = %25p\n", NULL));
 	return 0;
 }

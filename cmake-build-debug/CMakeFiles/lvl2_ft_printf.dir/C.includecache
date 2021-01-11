@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/bwayfare/Learn/github/ft_printf/check/ft_printf.c
-ft_printf.h
-/Users/bwayfare/Learn/github/ft_printf/check/ft_printf.h
-
 /Users/bwayfare/Learn/github/ft_printf/check/ft_printf.h
 stdlib.h
 -
@@ -17,4 +13,10 @@ unistd.h
 -
 stdarg.h
 -
+
+/Users/bwayfare/Learn/github/ft_printf/check/main.c
+stdio.h
+-
+ft_printf.h
+/Users/bwayfare/Learn/github/ft_printf/check/ft_printf.h
 

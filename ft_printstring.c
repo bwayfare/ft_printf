@@ -12,19 +12,11 @@
 
 #include "ft_printf.h"
 
-int		ft_printstring(t_list *list, char *str)
+void 	ft_printstr(t_list *list, char *str, int len)
 {
-	int		len;
-	int		i;
+	int i;
 
 	i = 0;
-	len = ft_strlen(str);
-	if (len > list->pon && list->pon != -1)
-		len = list->pon;
-	else
-		list->pon = len;
-	if (len > list->width)
-		list->width = len;
 	if (list->def)
 	{
 		write(1, str, len);
@@ -37,5 +29,22 @@ int		ft_printstring(t_list *list, char *str)
 			write(1, &list->zap, 1);
 		write(1, str, len);
 	}
+}
+
+int		ft_printstring(t_list *list, char *str)
+{
+	int		len;
+	char 	stemp[] = "(null)\0";
+
+	if (str == NULL)
+		str = stemp;
+	len = ft_strlen(str);
+	if (len > list->pon && list->pon != -1)
+		len = list->pon;
+	else
+		list->pon = len;
+	if (len > list->width)
+		list->width = len;
+	ft_printstr(list, str, len);
 	return (list->width);
 }

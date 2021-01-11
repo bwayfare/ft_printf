@@ -43,7 +43,7 @@ int		ft_singltype(char ch, char *set)
 			return (1);
 		set++;
 	}
-	return (2);
+	return (0);
 }
 
 int		ft_checkflag(char ch, t_list *list)

@@ -21,7 +21,7 @@ int		ft_proc(va_list *arg, const char *str, t_list *list)
 	{
 		if (ft_singltype(*str, "pduicsxX%\0"))
 			return ((int)(str - head));
-		if (*str == '.')
+		else if (*str == '.')
 		{
 			list->flag = 1;
 			str++;
@@ -33,7 +33,7 @@ int		ft_proc(va_list *arg, const char *str, t_list *list)
 				return ((int)(str - head));
 			}
 		}
-		if (ft_checkflag(*str, list))
+		else if (ft_checkflag(*str, list))
 			str++;
 		else if (list->flag == 0 && (str += ft_checkwidth(arg, str, list)))
 			continue;

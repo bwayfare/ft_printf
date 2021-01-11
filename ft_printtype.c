@@ -14,7 +14,7 @@
 
 int		ft_printtype(const char *str, va_list *arg, t_list *list)
 {
-	char	*tstr;
+	char		*tstr;
 
 	if (*str == 's')
 		return (ft_printstring(list, va_arg(*arg, char *)));
@@ -34,5 +34,5 @@ int		ft_printtype(const char *str, va_list *arg, t_list *list)
 	if (*str == 'x')
 		return (ft_hexproc(list, va_arg(*arg, long int), 0));
 	else
-		return (ft_hexproc(list, va_arg(*arg, unsigned long), 2));
+		return (ft_hexproc(list, va_arg(*arg, long int), 2));
 }
