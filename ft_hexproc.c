@@ -63,11 +63,13 @@ char	ft_getuphex(long int tint)
 		return ('F');
 }
 
-void	ft_gethex(long int temp, char *tstr, int flag)
+void	ft_gethex(unsigned int temp, char *tstr, int flag)
 {
-	long int tint;
+	unsigned int tint;
 
 	tint = 0;
+	if (temp == 0)
+		*tstr++ = '0';
 	while (temp > 0)
 	{
 		tint = temp % 16;
@@ -84,13 +86,15 @@ void	ft_gethex(long int temp, char *tstr, int flag)
 	}
 	if (flag == 2)
 	{
+		//if (temp == (long int)NULL)
+		//	*tstr++ = '0';
 		*tstr++ = 'x';
 		*tstr++ = '0';
 	}
 	*tstr = '\0';
 }
 
-int		ft_hexproc(t_list *list, long int temp, int flag)
+int		ft_hexproc(t_list *list, unsigned int temp, int flag)
 {
 	char	*tstr;
 	char	*head;

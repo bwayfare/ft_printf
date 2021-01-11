@@ -37,7 +37,10 @@ void	ft_checkponwidth(t_list *list, int len, char *tstr, int *i)
 	else
 	{
 		list->pon = 0;
-		list->width -= len;
+		if (list->width > len)
+			list->width -= len;
+		else
+			list->width = 0;
 	}
 }
 
