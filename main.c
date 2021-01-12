@@ -164,7 +164,7 @@ int main()
 
 	//printf("%d\n", ft_printf("%i, %d, %d, %d, %d, %s, %c, %d, %u, %x, %X\n", i, j, k, l, m, n, c, c, j, j, j)); //T3
 	//printf("%i, %d, %d, %d, %d, %s, %c, %d, %u, %x, %X", i, j, k, l, m, n, c, c, j, j, j);
-	printf("%d\n", ft_printf("%010.5d\n", 34));
-	printf("%d\n", printf("%010.5d\n", 34));
+	printf("%d\n", ft_printf("%010d\n", 34));
+	printf("%d\n", printf("%010d\n", 34));
 	return 0;
 }

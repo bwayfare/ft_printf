@@ -4,24 +4,24 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_atoi.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_atoi.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_bzero.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_bzero.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_calloc.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_calloc.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_check.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_check.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_hexprint.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_hexproc.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_intproc.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_itoa.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_itoa.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_longtoa.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_printchar.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_printf.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_printint.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_printstring.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_printtype.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/ft_strlen.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_strlen.c.o"
-  "/Users/bwayfare/Learn/github/ft_printf/check/main.c" "/Users/bwayfare/Learn/github/ft_printf/check/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/main.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_atoi.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_atoi.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_bzero.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_bzero.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_calloc.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_calloc.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_check.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_check.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_hexprint.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_hexprint.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_hexproc.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_intproc.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_itoa.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_itoa.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_longtoa.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printchar.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printint.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printstring.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printtype.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_strlen.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/ft_strlen.c.o"
+  "/home/nykanaka/CLionProjects/lvl2_ft_printf/main.c" "/home/nykanaka/CLionProjects/lvl2_ft_printf/cmake-build-debug/CMakeFiles/lvl2_ft_printf.dir/main.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

@@ -73,7 +73,7 @@ void	ft_intpoz(char *tstr, t_list *list, int *i, int *j)
 	if (*tstr == '-')
 	{
 		while ((*i)++ < list->width)
-			write(1, " ", 1);
+			write(1, &list->zap, 1);
 		write(1, tstr, 1);
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
@@ -83,7 +83,7 @@ void	ft_intpoz(char *tstr, t_list *list, int *i, int *j)
 	else
 	{
 		while ((*i)++ < list->width)
-			write(1, " ", 1);
+			write(1, &list->zap, 1);
 		write(1, "+", 1);
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
@@ -101,7 +101,7 @@ void	ft_intpozelse(char *tstr, t_list *list, int *i, int *j)
 	if (*tstr == '-')
 	{
 		while ((*i)++ < list->width)
-			write(1, " ", 1);
+			write(1, &list->zap, 1);
 		write(1, tstr, 1);
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
@@ -111,7 +111,7 @@ void	ft_intpozelse(char *tstr, t_list *list, int *i, int *j)
 	else
 	{
 		while ((*i)++ < list->width)
-			write(1, " ", 1);
+			write(1, &list->zap, 1);
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
 		write(1, tstr, ft_strlen(tstr));

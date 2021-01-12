@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/bwayfare/Learn/github/ft_printf/check/ft_printf.h
+/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
 stdlib.h
 -
 unistd.h
@@ -14,9 +14,9 @@ unistd.h
 stdarg.h
 -
 
-/Users/bwayfare/Learn/github/ft_printf/check/main.c
+/home/nykanaka/CLionProjects/lvl2_ft_printf/main.c
 stdio.h
 -
 ft_printf.h
-/Users/bwayfare/Learn/github/ft_printf/check/ft_printf.h
+/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
 

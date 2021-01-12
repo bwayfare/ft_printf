@@ -14,6 +14,8 @@
 
 void	ft_checkponwidth(t_list *list, int len, char *tstr, int *i)
 {
+	if (list->flag == 1)
+		list->zap = ' ';
 	if (list->pon == 0 && tstr[0] == '0')
 	{
 		list->flag = 5;
