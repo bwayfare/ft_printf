@@ -14,17 +14,24 @@
 
 void	ft_hexwidthpon(t_list *list, int len)
 {
+	if (list->flag == 1)
+		list->zap = ' ';
+	if (list->pon == 0)
+	{
+		list->flag = 5;
+		list->len -= 1;
+	}
 	if (list->width < list->pon)
 	{
 		list->width = 0;
 		list->pon -= len;
 	}
-	else if (list->pon != -1 && list->pon)
+	else if (list->pon != -1 && list->pon > len)
 	{
 		list->width -= list->pon;
 		list->pon -= len;
 	}
-	else
+	else if (list->flag != 5)
 	{
 		list->pon = 0;
 		if (list->width > len)
@@ -45,18 +52,18 @@ void	ft_hexprint(t_list *list, char *str)
 	{
 		while (j++ < list->pon)
 			write(1, "0", 1);
-		while (*str)
+		while (*str && list->flag != 5)
 			write(1, str++, 1);
 		while (i++ < list->width)
-			write(1, " ", 1);
+			write(1, &list->zap, 1);
 	}
 	else
 	{
 		while (i++ < list->width)
-			write(1, " ", 1);
+			write(1, &list->zap, 1);
 		while (j++ < list->pon)
 			write(1, "0", 1);
-		while (*str)
+		while (*str && list->flag != 5)
 			write(1, str++, 1);
 	}
 }

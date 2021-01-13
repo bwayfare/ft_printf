@@ -12,14 +12,14 @@
 
 #include "ft_printf.h"
 
-void	ft_checkponwidth(t_list *list, int len, char *tstr, int *i)
+void	ft_checkponwidth(t_list *list, int len, char *tstr)
 {
 	if (list->flag == 1)
 		list->zap = ' ';
 	if (list->pon == 0 && tstr[0] == '0')
 	{
 		list->flag = 5;
-		*i = -1;
+		list->len -= 1;
 	}
 	if (tstr[0] == '-' || list->poz == 1)
 	{
@@ -36,7 +36,7 @@ void	ft_checkponwidth(t_list *list, int len, char *tstr, int *i)
 		list->width -= list->pon;
 		list->pon -= len;
 	}
-	else
+	else if (list->flag != 5)
 	{
 		list->pon = 0;
 		if (list->width > len)
@@ -63,8 +63,8 @@ int		ft_uintcheck(long int temp, t_list *list)
 
 int		ft_printint(char *tstr, t_list *list, int i, int j)
 {
-	ft_checkponwidth(list, ft_strlen(tstr), tstr, &i);
-	if (list->flag != 5)
+	ft_checkponwidth(list, ft_strlen(tstr), tstr);
+	if (list->flag != 4)
 	{
 		if (list->def == 0)
 		{

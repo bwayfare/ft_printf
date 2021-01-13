@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
+/Users/bwayfare/Learn/github/ft_printf/13.01.2021/ft_hexprint.c
+ft_printf.h
+/Users/bwayfare/Learn/github/ft_printf/13.01.2021/ft_printf.h
+
+/Users/bwayfare/Learn/github/ft_printf/13.01.2021/ft_printf.h
 stdlib.h
 -
 unistd.h
 -
 stdarg.h
 -
-
-/home/nykanaka/CLionProjects/lvl2_ft_printf/main.c
-stdio.h
--
-ft_printf.h
-/home/nykanaka/CLionProjects/lvl2_ft_printf/ft_printf.h
 

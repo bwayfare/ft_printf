@@ -24,7 +24,7 @@ void	ft_intzappoz(char *tstr, t_list *list, int *i, int *j)
 			write(1, &list->zap, 1);
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
-		while (tstr[iter])
+		while (tstr[iter] && list->flag != 5)
 			write(1, &tstr[iter++], 1);
 	}
 	else
@@ -34,7 +34,8 @@ void	ft_intzappoz(char *tstr, t_list *list, int *i, int *j)
 			write(1, &list->zap, 1);
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
-		write(1, tstr, ft_strlen(tstr));
+		if (list->flag != 5)
+			write(1, tstr, ft_strlen(tstr));
 	}
 	*j -= 2;
 }
@@ -51,7 +52,7 @@ void	ft_intzap(char *tstr, t_list *list, int *i, int *j)
 			write(1, &list->zap, 1);
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
-		while (tstr[iter])
+		while (tstr[iter] && list->flag != 5)
 			write(1, &tstr[iter++], 1);
 	}
 	else
@@ -60,6 +61,7 @@ void	ft_intzap(char *tstr, t_list *list, int *i, int *j)
 			write(1, &list->zap, 1);
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
+		if (list->flag != 5)
 		write(1, tstr, ft_strlen(tstr));
 	}
 	*j -= 2;
@@ -77,7 +79,7 @@ void	ft_intpoz(char *tstr, t_list *list, int *i, int *j)
 		write(1, tstr, 1);
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
-		while (tstr[iter])
+		while (tstr[iter] && list->flag != 5)
 			write(1, &tstr[iter++], 1);
 	}
 	else
@@ -88,7 +90,8 @@ void	ft_intpoz(char *tstr, t_list *list, int *i, int *j)
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
 		list->width++;
-		write(1, tstr, ft_strlen(tstr));
+		if (list->flag != 5)
+			write(1, tstr, ft_strlen(tstr));
 	}
 	*j -= 2;
 }
@@ -105,7 +108,7 @@ void	ft_intpozelse(char *tstr, t_list *list, int *i, int *j)
 		write(1, tstr, 1);
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
-		while (tstr[iter])
+		while (tstr[iter] && list->flag != 5)
 			write(1, &tstr[iter++], 1);
 	}
 	else
@@ -114,7 +117,8 @@ void	ft_intpozelse(char *tstr, t_list *list, int *i, int *j)
 			write(1, &list->zap, 1);
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
-		write(1, tstr, ft_strlen(tstr));
+		if (list->flag != 5)
+			write(1, tstr, ft_strlen(tstr));
 	}
 	*j -= 2;
 }
@@ -129,7 +133,7 @@ void	ft_intdef(char *tstr, t_list *list, int *i, int *j)
 		write(1, tstr, 1);
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
-		while (tstr[iter])
+		while (tstr[iter] && list->flag != 5)
 			write(1, &tstr[iter++], 1);
 		while ((*i)++ < list->width)
 			write(1, " ", 1);
@@ -140,7 +144,8 @@ void	ft_intdef(char *tstr, t_list *list, int *i, int *j)
 			write(1, "+", 1);
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
-		write(1, tstr, ft_strlen(tstr));
+		if (list->flag != 5)
+			write(1, tstr, ft_strlen(tstr));
 		while ((*i)++ < list->width)
 			write(1, " ", 1);
 	}
