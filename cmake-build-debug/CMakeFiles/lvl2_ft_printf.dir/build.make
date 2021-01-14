@@ -194,9 +194,22 @@ CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bwayfare/Learn/github/ft_printf/13.01.2021/ft_longtoa.c -o CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.s
 
+CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
+CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.o: ../ft_ponpoc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.o   -c /Users/bwayfare/Learn/github/ft_printf/13.01.2021/ft_ponpoc.c
+
+CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bwayfare/Learn/github/ft_printf/13.01.2021/ft_ponpoc.c > CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.i
+
+CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bwayfare/Learn/github/ft_printf/13.01.2021/ft_ponpoc.c -o CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.s
+
 CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o: ../ft_printchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o   -c /Users/bwayfare/Learn/github/ft_printf/13.01.2021/ft_printchar.c
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.i: cmake_force
@@ -209,7 +222,7 @@ CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o: ../ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o   -c /Users/bwayfare/Learn/github/ft_printf/13.01.2021/ft_printf.c
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.i: cmake_force
@@ -222,7 +235,7 @@ CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o: ../ft_printint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o   -c /Users/bwayfare/Learn/github/ft_printf/13.01.2021/ft_printint.c
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.i: cmake_force
@@ -235,7 +248,7 @@ CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o: ../ft_printstring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.o   -c /Users/bwayfare/Learn/github/ft_printf/13.01.2021/ft_printstring.c
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.i: cmake_force
@@ -248,7 +261,7 @@ CMakeFiles/lvl2_ft_printf.dir/ft_printstring.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.o: ../ft_printtype.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.o   -c /Users/bwayfare/Learn/github/ft_printf/13.01.2021/ft_printtype.c
 
 CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.i: cmake_force
@@ -261,7 +274,7 @@ CMakeFiles/lvl2_ft_printf.dir/ft_printtype.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/ft_strlen.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/ft_strlen.c.o: ../ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lvl2_ft_printf.dir/ft_strlen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/ft_strlen.c.o   -c /Users/bwayfare/Learn/github/ft_printf/13.01.2021/ft_strlen.c
 
 CMakeFiles/lvl2_ft_printf.dir/ft_strlen.c.i: cmake_force
@@ -274,7 +287,7 @@ CMakeFiles/lvl2_ft_printf.dir/ft_strlen.c.s: cmake_force
 
 CMakeFiles/lvl2_ft_printf.dir/main.c.o: CMakeFiles/lvl2_ft_printf.dir/flags.make
 CMakeFiles/lvl2_ft_printf.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lvl2_ft_printf.dir/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lvl2_ft_printf.dir/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvl2_ft_printf.dir/main.c.o   -c /Users/bwayfare/Learn/github/ft_printf/13.01.2021/main.c
 
 CMakeFiles/lvl2_ft_printf.dir/main.c.i: cmake_force
@@ -296,6 +309,7 @@ lvl2_ft_printf_OBJECTS = \
 "CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o" \
 "CMakeFiles/lvl2_ft_printf.dir/ft_itoa.c.o" \
 "CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o" \
+"CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.o" \
 "CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o" \
 "CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o" \
 "CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o" \
@@ -316,6 +330,7 @@ lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_hexproc.c.o
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_intproc.c.o
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_itoa.c.o
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o
+lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.o
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_printf.c.o
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_printint.c.o
@@ -325,7 +340,7 @@ lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/ft_strlen.c.o
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/main.c.o
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/build.make
 lvl2_ft_printf: CMakeFiles/lvl2_ft_printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C executable lvl2_ft_printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bwayfare/Learn/github/ft_printf/13.01.2021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking C executable lvl2_ft_printf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lvl2_ft_printf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

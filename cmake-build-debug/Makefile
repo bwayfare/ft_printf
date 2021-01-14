@@ -386,6 +386,33 @@ ft_longtoa.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.s
 .PHONY : ft_longtoa.c.s
 
+ft_ponpoc.o: ft_ponpoc.c.o
+
+.PHONY : ft_ponpoc.o
+
+# target to build an object file
+ft_ponpoc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.o
+.PHONY : ft_ponpoc.c.o
+
+ft_ponpoc.i: ft_ponpoc.c.i
+
+.PHONY : ft_ponpoc.i
+
+# target to preprocess a source file
+ft_ponpoc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.i
+.PHONY : ft_ponpoc.c.i
+
+ft_ponpoc.s: ft_ponpoc.c.s
+
+.PHONY : ft_ponpoc.s
+
+# target to generate assembly for a file
+ft_ponpoc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvl2_ft_printf.dir/build.make CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.s
+.PHONY : ft_ponpoc.c.s
+
 ft_printchar.o: ft_printchar.c.o
 
 .PHONY : ft_printchar.o
@@ -611,6 +638,9 @@ help:
 	@echo "... ft_longtoa.o"
 	@echo "... ft_longtoa.i"
 	@echo "... ft_longtoa.s"
+	@echo "... ft_ponpoc.o"
+	@echo "... ft_ponpoc.i"
+	@echo "... ft_ponpoc.s"
 	@echo "... ft_printchar.o"
 	@echo "... ft_printchar.i"
 	@echo "... ft_printchar.s"

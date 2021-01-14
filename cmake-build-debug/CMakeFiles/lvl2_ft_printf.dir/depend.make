@@ -28,6 +28,9 @@ CMakeFiles/lvl2_ft_printf.dir/ft_itoa.c.o: ../ft_printf.h
 CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o: ../ft_longtoa.c
 CMakeFiles/lvl2_ft_printf.dir/ft_longtoa.c.o: ../ft_printf.h
 
+CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.o: ../ft_ponpoc.c
+CMakeFiles/lvl2_ft_printf.dir/ft_ponpoc.c.o: ../ft_printf.h
+
 CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o: ../ft_printchar.c
 CMakeFiles/lvl2_ft_printf.dir/ft_printchar.c.o: ../ft_printf.h
 

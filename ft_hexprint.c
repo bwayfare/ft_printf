@@ -12,11 +12,11 @@
 
 #include "ft_printf.h"
 
-void	ft_hexwidthpon(t_list *list, int len)
+void	ft_hexwidthpon(t_list *list, int len, int flag)
 {
-	if (list->flag == 1)
+	if ((list->flag == 1 && list->pon == 0) || list->pon > 0)
 		list->zap = ' ';
-	if (list->pon == 0)
+	if (list->pon == 0 && flag == 1)
 	{
 		list->flag = 5;
 		list->len -= 1;

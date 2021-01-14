@@ -26,7 +26,8 @@ SRCS	=		$(DIR)ft_calloc.c\
 				$(DIR)ft_hexprint.c\
 				$(DIR)ft_itoa.c\
 				$(DIR)ft_printf.c\
-				$(DIR)ft_printstring.c
+				$(DIR)ft_printstring.c\
+				$(DIR)ft_ponpoc.c
 
 OBJS    =		$(SRCS:.c=.o)
 

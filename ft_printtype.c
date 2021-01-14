@@ -30,9 +30,10 @@ int		ft_printtype(const char *str, va_list *arg, t_list *list)
 	if (*str == 'u')
 		return (ft_uintcheck(va_arg(*arg, unsigned int), list));
 	if (*str == 'X')
-		return (ft_hexproc(list, va_arg(*arg, long int), 1));
+		return (ft_hexproc(list, va_arg(*arg, unsigned int), 1));
 	if (*str == 'x')
-		return (ft_hexproc(list, va_arg(*arg, long int), 0));
-	else
-		return (ft_hexproc(list, va_arg(*arg, long int), 2));
+		return (ft_hexproc(list, va_arg(*arg, unsigned int), 0));
+	if (*str == 'p')
+		return (ft_ponproc(list, va_arg(*arg, unsigned long int)));
+	return (0);
 }

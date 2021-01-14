@@ -130,17 +130,17 @@ int main()
 	printf("					мой = %ld, системный = %d\n\n", i, j);
 	i = ft_printf("!___25 MY + = %*.*d___!\n   !___MY - = %*.*d___!\n", -25, -15, hui, -25, -15, dvahuya);
 	j = printf("!___26 NO + = %*.*d___!\n   !___NO - = %*.*d___!\n", -25, -15, hui, -25, -15, dvahuya);
-	printf("					мой = %ld, системный = %d\n\n", i, j);*/
+	printf("					мой = %ld, системный = %d\n\n", i, j);
 //	ft_printf("hello, %s.", NULL);
-	/*unsigned int utemp = 4147483690;
-	ft_printf("Proverka unsigned int = %15.70u\n", utemp);
-	printf("Proverka unsigned int = %15.70u\n", utemp);*/
-	/*printf("%d\n", ft_printf("Proverka hex = %X\n", -12));
+	unsigned int utemp = 4147483690;
+	printf("   --------%d\n", ft_printf("Proverka unsigned int = %15.70u\n", utemp));
+	printf("   --------%d\n", printf("Proverka unsigned int = %15.70u\n", utemp));
+	printf("%d\n", ft_printf("Proverka hex = %X\n", -12));
 	printf("%d\n", printf("Proverka hex = %X\n", -12));
 	unsigned int uutemp = 314;
 	printf("%d\n", ft_printf("Proverka p = %25p\n", -12));
 	printf("%d\n", printf("Proverka p = %25p\n", -12));*/
-	int		a = -4;
+	int		a = 0;
 	int		b = 0;
 	char	c = 'a';
 	int		d = 2147483647;
@@ -161,12 +161,31 @@ int main()
 	char	*s = "-2147483648";
 	char	*t = "0x12345678";
 	char	*u = "-0";
+	a = -2;
+	while(a < 5) //T70-177
+	{
+		b = -2;
+		while (b < 5)
+		{
+	printf("--------%d\n", ft_printf("%*.*s, %*.*s, %*.*s, %*.*s, %*.*s, %*.*s, %*.*s, %*.*s", a, b, n, a, b, o, a, b, p, a, b, q, a, b, r, a, b, s, a, b, t, a, b, u)); //T3
+	printf("--------%d\n", printf("%*.*s, %*.*s, %*.*s, %*.*s, %*.*s, %*.*s, %*.*s, %*.*s", a, b, n, a, b, o, a, b, p, a, b, q, a, b, r, a, b, s, a, b, t, a, b, u));
+	printf("--------%d\n", ft_printf("%-*.*s, %-*.*s, %-*.*s, %-*.*s, %-*.*s, %-*.*s, %-*.*s, %-*.*s", a, b, n, a, b, o, a, b, p, a, b, q, a, b, r, a, b, s, a, b, t, a, b, u)); //T3
+	printf("--------%d\n", printf("%-*.*s, %-*.*s, %-*.*s, %-*.*s, %-*.*s, %-*.*s, %-*.*s, %-*.*s", a, b, n, a, b, o, a, b, p, a, b, q, a, b, r, a, b, s, a, b, t, a, b, u));
 
-	//printf("%d\n", ft_printf("%i, %d, %d, %d, %d, %s, %c, %d, %u, %x, %X\n", i, j, k, l, m, n, c, c, j, j, j)); //T3
-	//printf("%i, %d, %d, %d, %d, %s, %c, %d, %u, %x, %X", i, j, k, l, m, n, c, c, j, j, j);
-	//printf("%d\n", ft_printf("%5.0d\n", 0));
-	//printf("%d\n", printf("%5.0d\n", 0));
-	printf("%d\n", ft_printf("%8.3X\n", 8375));
-	printf("%d\n", printf("%8.3X\n", 8375));
+			b++;
+		}
+		a++;
+	}
+/*
+	printf("--------%d\n", ft_printf("%i, %d, %d, %d, %d, %d, %u, %x, %X", a, a, a, a, a, a, a, a, a)); //T3
+	printf("--------%d\n", printf("%i, %d, %d, %d, %d, %d, %u, %x, %X", a, a, a, a, a, a, a, a, a));
+*/
+
+//	printf("   --------%d\n", ft_printf("%*.*x", 4, 0,  8));
+//	printf("   --------%d\n", printf("%*.*x", 4, 0, 8));
+/*	printf("   --------%d\n", ft_printf("%*.*d", 4, 3, -12));
+	printf("   --------%d\n", printf("%*.*d", 4, 3, -12));*/
+//	printf("   --------%d\n", ft_printf("%X", -12));
+//	printf("   --------%d\n", printf("%X", -12));
 	return 0;
 }
