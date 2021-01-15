@@ -136,7 +136,7 @@ void	ft_intdef(char *tstr, t_list *list, int *i, int *j)
 		while (tstr[iter] && list->flag != 5)
 			write(1, &tstr[iter++], 1);
 		while ((*i)++ < list->width)
-			write(1, " ", 1);
+			write(1, &list->zap, 1);
 	}
 	else
 	{
@@ -147,7 +147,7 @@ void	ft_intdef(char *tstr, t_list *list, int *i, int *j)
 		if (list->flag != 5)
 			write(1, tstr, ft_strlen(tstr));
 		while ((*i)++ < list->width)
-			write(1, " ", 1);
+			write(1, &list->zap, 1);
 	}
 	*j -= 2;
 }

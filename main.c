@@ -161,7 +161,7 @@ int main()
 	char	*s = "-2147483648";
 	char	*t = "0x12345678";
 	char	*u = "-0";
-	a = -2;
+	/*a = -2;
 	while(a < 5) //T70-177
 	{
 		b = -2;
@@ -175,16 +175,25 @@ int main()
 			b++;
 		}
 		a++;
-	}
+	}*/
 /*
 	printf("--------%d\n", ft_printf("%i, %d, %d, %d, %d, %d, %u, %x, %X", a, a, a, a, a, a, a, a, a)); //T3
 	printf("--------%d\n", printf("%i, %d, %d, %d, %d, %d, %u, %x, %X", a, a, a, a, a, a, a, a, a));
 */
+	a = 0;
+	while (a < 5) //T214-256
+	{
+	printf("--------%d\n", ft_printf("%.*u, %.*x, %.*X, %.*u, %.*x, %.*X, %.*u, %.*x, %.*X, %.*u, %.*x, %.*X, %.*u, %.*x, %.*X, %.*u, %.*x, %.*X, %.*u, %.*x, %.*X, %.*u, %.*x, %.*X",
+								  a, i, a, i, a, i, a, j, a, j, a, j, a, k, a, k, a, k, a, l, a, l, a, l, a, m, a, m, a, m, a, c, a, c, a, c, a, d, a, d, a, d, a, e, a, e, a, e)); //T3
+	printf("--------%d\n", printf("%.*u, %.*x, %.*X, %.*u, %.*x, %.*X, %.*u, %.*x, %.*X, %.*u, %.*x, %.*X, %.*u, %.*x, %.*X, %.*u, %.*x, %.*X, %.*u, %.*x, %.*X, %.*u, %.*x, %.*X",
+								  a, i, a, i, a, i, a, j, a, j, a, j, a, k, a, k, a, k, a, l, a, l, a, l, a, m, a, m, a, m, a, c, a, c, a, c, a, d, a, d, a, d, a, e, a, e, a, e));
+	a++;
+}
 
 //	printf("   --------%d\n", ft_printf("%*.*x", 4, 0,  8));
 //	printf("   --------%d\n", printf("%*.*x", 4, 0, 8));
-/*	printf("   --------%d\n", ft_printf("%*.*d", 4, 3, -12));
-	printf("   --------%d\n", printf("%*.*d", 4, 3, -12));*/
+//	printf("   --------%d\n", ft_printf("%03.0d",  8));
+//	printf("   --------%d\n", printf("%03.0d",  8));
 //	printf("   --------%d\n", ft_printf("%X", -12));
 //	printf("   --------%d\n", printf("%X", -12));
 	return 0;

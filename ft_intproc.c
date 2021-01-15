@@ -14,36 +14,28 @@
 
 void	ft_checkponwidth(t_list *list, int len, char *tstr)
 {
-	if ((list->flag == 1 && list->pon == 0) || list->pon > 0)
+	if (*tstr == '-')
+	{
+		len--;
+		list->width--;
+	}
+	if (list->flag == 1  && (list->width > list->pon))
+		if (list->pon > len || list->pon > 0)
+			list->zap = ' ';
+	if (list->def == 1 || list->pon == 0)
 		list->zap = ' ';
-	if (list->pon == 0 && tstr[0] == '0')
+	if (*tstr == '0' && list->pon == 0)
 	{
 		list->flag = 5;
-		list->len -= 1;
+		list->width++;
+		list->len--;
 	}
-	if (tstr[0] == '-' || list->poz == 1)
-	{
-		if (list->pon >= list->width || list->pon > len)
-			list->pon++;
-	}
-	if (list->width < list->pon)
-	{
+	if (list->pon < 0 || list->pon < len)
+		list->pon = len;
+	if (list->width < 0)
 		list->width = 0;
-		list->pon -= len;
-	}
-	else if (list->pon != -1 && list->pon > len)
-	{
-		list->width -= list->pon;
-		list->pon -= len;
-	}
-	else if (list->flag != 5)
-	{
-		list->pon = 0;
-		if (list->width > len)
-			list->width -= len;
-		else
-			list->width = 0;
-	}
+	list->width -= list->pon;
+	list->pon -= len;
 }
 
 int		ft_uintcheck(long int temp, t_list *list)
