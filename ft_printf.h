@@ -29,16 +29,6 @@ typedef struct		s_print_list
 	int				flag;
 }					t_list;
 
-typedef struct 		s_check_params
-{
-	int 			f_pon;
-	int 			f_width;
-	int 			f_poz;
-	int 			f_def;
-	int 			f_zap;
-	int 			f_dot;
-}					t_params;
-
 int					ft_printf(const char *str, ...);
 int					ft_singltype(char ch, char *set);
 int					ft_goch(const char *str, const char *ch);

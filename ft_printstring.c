@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-void 	ft_printstr(t_list *list, char *str, int len)
+void	ft_printstr(t_list *list, char *str, int len)
 {
 	int i;
 
@@ -34,8 +34,15 @@ void 	ft_printstr(t_list *list, char *str, int len)
 int		ft_printstring(t_list *list, char *str)
 {
 	int		len;
-	char 	stemp[] = "(null)\0";
+	char	stemp[7];
 
+	stemp[0] = '(';
+	stemp[1] = 'n';
+	stemp[2] = 'u';
+	stemp[3] = 'l';
+	stemp[4] = 'l';
+	stemp[5] = ')';
+	stemp[6] = '\0';
 	if (str == NULL)
 		str = stemp;
 	len = ft_strlen(str);

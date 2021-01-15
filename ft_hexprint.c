@@ -14,7 +14,7 @@
 
 void	ft_hexwidthpon(t_list *list, int len, int flag)
 {
-	if (list->flag == 1  && (list->width > list->pon))
+	if (list->flag == 1 && (list->width > list->pon))
 		if (list->pon > len || list->pon > 0)
 			list->zap = ' ';
 	if (list->def == 1 || list->pon == 0)

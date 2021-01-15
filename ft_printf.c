@@ -72,17 +72,17 @@ int		ft_start(va_list *arg, t_list *list, int step, const char *str)
 	{
 		if (*str == '%')
 		{
-				ft_initlist(list);
-				step = ft_proc(arg, ++str, list);
-				str += step;
-				step = ft_prin(arg, str++, list, 1);
-				if (step != -1)
-					list->len += step;
-				else
-				{
-					list->len = -1;
-					return (-1);
-				}
+			ft_initlist(list);
+			step = ft_proc(arg, ++str, list);
+			str += step;
+			step = ft_prin(arg, str++, list, 1);
+			if (step != -1)
+				list->len += step;
+			else
+			{
+				list->len = -1;
+				return (-1);
+			}
 			continue;
 		}
 		list->len++;

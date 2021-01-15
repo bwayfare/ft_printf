@@ -90,7 +90,7 @@ int		ft_checkwidth(va_list *arg, const char *str, t_list *list)
 }
 
 int		ft_checkpon(va_list *arg, const char *str,
-				 t_list *list, const char *head)
+		t_list *list, const char *head)
 {
 	if (*str >= '0' && *str <= '9')
 		list->pon = ft_atoi(str);

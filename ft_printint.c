@@ -62,7 +62,7 @@ void	ft_intzap(char *tstr, t_list *list, int *i, int *j)
 		while ((*j)++ < list->pon)
 			write(1, "0", 1);
 		if (list->flag != 5)
-		write(1, tstr, ft_strlen(tstr));
+			write(1, tstr, ft_strlen(tstr));
 	}
 	*j -= 2;
 }
