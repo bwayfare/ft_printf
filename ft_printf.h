@@ -48,7 +48,7 @@ char				*ft_longtoa(long int number);
 int					ft_uintcheck(long int temp, t_list *list);
 int					ft_hexproc(t_list *list, unsigned int temp, int flag);
 void				ft_hexwidthpon(t_list *list, int len, int flag);
-void				ft_hexprint(t_list *list, char *tstr);
+void				ft_hexprint(t_list *list, char *tstr, int i, int j);
 int					ft_ponproc(t_list *list, unsigned long int temp);
 int					ft_atoi(const char *str);
 void				ft_bzero(void *s, size_t n);

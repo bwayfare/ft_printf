@@ -6,7 +6,7 @@
 /*   By: bwayfare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/15 19:18:57 by bwayfare          #+#    #+#             */
-/*   Updated: 2021/01/15 19:18:59 by bwayfare         ###   ########.fr       */
+/*   Updated: 2021/01/16 19:45:36 by bwayfare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,9 +63,6 @@ void	ft_pongethex(unsigned long int temp, char *tstr)
 			*tstr++ = (char)(tint + '0');
 		temp /= 16;
 	}
-	*tstr++ = 'x';
-	*tstr++ = '0';
-	*tstr = '\0';
 }
 
 int		ft_ponproc(t_list *list, unsigned long int temp)
@@ -74,15 +71,25 @@ int		ft_ponproc(t_list *list, unsigned long int temp)
 	char	*head;
 	int		len;
 
-	if (temp == 0)
-		list->sharp = 1;
+	list->sharp = 5;
+	if (temp == 0 && list->flag == 1 && list->pon == 0)
+	{
+		list->sharp = 6;
+		list->len += 1;
+	}
+	else
+		list->len += 2;
 	tstr = ft_calloc(100, 1);
 	head = tstr;
 	ft_pongethex(temp, tstr);
 	ft_ponrevhex(head);
+	if (list->flag == 1 && list->pon < 1)
+		list->width -= 1;
+	else
+		list->width -= 2;
 	len = (int)ft_strlen(head);
 	ft_hexwidthpon(list, len, list->sharp);
-	ft_hexprint(list, head);
+	ft_hexprint(list, head, 0, 0);
 	free(head);
 	return (len + list->width + list->pon);
 }

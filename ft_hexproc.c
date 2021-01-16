@@ -6,7 +6,7 @@
 /*   By: bwayfare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/09 18:32:45 by bwayfare          #+#    #+#             */
-/*   Updated: 2021/01/09 18:33:23 by bwayfare         ###   ########.fr       */
+/*   Updated: 2021/01/16 20:36:09 by bwayfare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,11 +84,6 @@ void	ft_gethex(unsigned int temp, char *tstr, int flag)
 			*tstr++ = (char)(tint + '0');
 		temp /= 16;
 	}
-	if (flag == 2)
-	{
-		*tstr++ = 'x';
-		*tstr++ = '0';
-	}
 	*tstr = '\0';
 }
 
@@ -106,7 +101,7 @@ int		ft_hexproc(t_list *list, unsigned int temp, int flag)
 	ft_revhex(head);
 	len = (int)ft_strlen(head);
 	ft_hexwidthpon(list, len, list->sharp);
-	ft_hexprint(list, head);
+	ft_hexprint(list, head, 0, 0);
 	free(head);
 	return (len + list->width + list->pon);
 }
